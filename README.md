@@ -1,1 +1,1 @@
-Personal repository for recording reading notes
+**Personal repository for recording reading notes**
