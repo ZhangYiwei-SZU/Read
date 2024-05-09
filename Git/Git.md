@@ -155,10 +155,15 @@ git pull https://github.com/ZhangYiwei-SZU/Read main
 
 ## Git配置
 
+配置好环境变量后直接在cmd中就可以使用git配置仓库
+
+
+
 查看配置：git config -l
 
 ```shell
-$ git config --global -h #帮助文档
+$ git config --global -h #-h是简单的帮助
+                         #--help是帮助文档
 usage: git config [<options>]
 
 Config file location
@@ -282,7 +287,7 @@ PS D:\>
 
 版本控制就是对文件的版本控制，要对文件进行修改、提交等操作，首先要知道文件当前在什么状态，不然可能会提交了现在还不想提交的文件，或者要提交的文件没提交上。
 
-- Untracked: 未跟踪, 此文件在文件夹中, 但并没有加入到git库, 不参与版本控制. 通过**git add**状态变为**Staged**.
+- Untracked: 未跟踪, 此文件新添加到文件夹中, 但并没有加入到git库, 不参与版本控制. 通过**git add**状态变为**Staged**.
 - Unmodify: 文件已经入库, 未修改, 即版本库中的文件快照内容与文件夹中完全一致. 这种类型的文件有两种去处, 如果它被修改, 而变为Modified. 如果使用git rm移出版本库, 则成为Untracked文件
 - Modified: 文件已修改, 仅仅是修改, 并没有进行其他的操作. 这个文件也有两个去处, 通过git add可进入暂存staged状态, 使用git checkout则丢弃修改过, 返回到unmodify状态, 这个git checkout即从库中取出文件, 覆盖当前修改 !
 - Staged: 暂存状态. 执行**git commit**则将修改同步到库中, 这时库中的文件和本地文件又变为一致, 文件为Unmodify状态. 执行git reset HEAD filename取消暂存, 文件状态为Modified
@@ -383,6 +388,8 @@ Changes to be committed:
 
 #### 提交到仓库(push)
 
+1. 通过`URL`PUSH
+
 ```shell
 PS D:\Read> git push https://github.com/113737038537/Read
 Enumerating objects: 5, done.
@@ -408,6 +415,22 @@ To https://github.com/113737038537/Read
 >- `Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)`：这行给出了一些关于推送操作的统计信息。在这个例子中，总共有4个对象被推送，没有对象被重复使用，没有对象被重复打包。
 >- `To https://github.com/113737038537/Read`：这是推送操作的目标地址，即你的远程仓库的URL。
 >- `a553799..d671878 main -> main`：这表示你的`main`分支已经被成功推送到远程仓库。`a553799..d671878`是这次推送操作的提交范围。
+
+2. 通过`<name>`PUSH
+
+具体看
+
+```shell
+git remote -h
+```
+
+> 当你把一个仓库克隆（git clone）到本地时，这个远程仓库会自动被命名为"origin"。这是一个约定俗成的命名规则，通常情况下我们都会这么做。所以，无论你的远程仓库URL是什么，你都可以通过`origin`这个名字来引用它。
+>
+> 当你执行`git clone https://github.com/ZhangYiwei-SZU/Read.git`时，Git 会自动创建一个名为 "origin" 的远程别名，指向你的 GitHub 仓库 "https://github.com/ZhangYiwei-SZU/Read.git"。
+>
+> 如果你想看你所有的远程仓库及其别名，你可以使用`git remote -v`这条命令，它会显示所有远程仓库的别名以及它们的URL。
+>
+> 当然，如果你想使用别的名字作为远程仓库的别名也是可以的，你可以使用`git remote add [别名] [远程仓库URL]`命令来为远程仓库起别名。比如，`git remote add read https://github.com/ZhangYiwei-SZU/Read.git`，这时你就可以用 `read` 这个别名引用你的远程仓库了。
 
 ![image-20240427155314026](https://raw.githubusercontent.com/113737038537/Pic/main/image-20240427155314026.png)
 
