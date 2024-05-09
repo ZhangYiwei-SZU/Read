@@ -1,6 +1,32 @@
 # [在线笔记](https://mp.weixin.qq.com/s/Bf7uVhGiu47uOELjmC5uXQ)
 
-# [官网](https://git-scm.com/)
+# [官网(github)](https://git-scm.com/)
+
+# [官网(gitee)](https://gitee.com/all-about-git)
+
+# [帮助文档](https://docs.github.com/zh)
+
+# 遇到的问题
+
+> **为什么我push后，一级目录的文件夹名是linux/notes，里面是readme.md，而不是linux是一级目录，notes是二级目录，里面是readme.md?**
+>
+> 从你提供的信息来看，你的GitHub仓库`Read`中确实存在一个`linux/notes`的路径，其实这就表示`notes`是`linux`的子目录。在这个子目录下，应该存在你提交的`readme.md`文件。
+>
+> 但如果你觉得显示为`linux/notes`有些困扰，那可能是因为GitHub在显示文件和文件夹时，会将路径中的所有层级一起显示出来，而不是像我们在本地文件系统中看到的那样，一层一层地展开。
+>
+> 如果你想看到`linux`和`notes`分开展示的样子，你可以点击`linux/notes`，这样就会进入`linux`目录，然后你会看到`notes`目录，再点击`notes`，你就能看到`readme.md`文件了。
+>
+> 总的来说，这个显示方式是GitHub的设计，目的是为了在主页上给出文件的完整路径，方便用户快速找到文件。并不表示你的目录结构有问题，你的目录结构是正确的。
+>
+> <img src="https://raw.githubusercontent.com/113737038537/Pic/main/image-20240429154454132.png" alt="image-20240429154454132" style="zoom:67%;" />
+>
+> <img src="https://raw.githubusercontent.com/113737038537/Pic/main/image-20240429154422892.png" alt="image-20240429154422892" style="zoom:50%;" />
+>
+> 显示的是全部内容，但目录结构正确。
+>
+> 
+
+
 
 # 版本控制
 
@@ -14,7 +40,7 @@
 
 多人开发必须使用版本控制
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/uJDAUKrGC7Ksu8UlITwMlbX3kMGtZ9p0C4qeLxMgoTg9B154ibahsUaibiaV7DgH9GTFQZj3Kyhf5fxrj6G2U5HFg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](https://raw.githubusercontent.com/113737038537/Pic/main/640)
 
 > 常见的版本控制工具
 
@@ -35,13 +61,13 @@
 
 记录文件每次的更新，可以对每个版本做一个快照，或是记录补丁文件，适合个人用，如RCS。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/uJDAUKrGC7Ksu8UlITwMlbX3kMGtZ9p0Dg3fHrbPqbNEOMO9GTjFhVaukMZWx54icS7eS2x8A7BEu0VB9ibwEhzQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](https://raw.githubusercontent.com/113737038537/Pic/main/640.png)
 
 **2、集中版本控制  SVN**
 
 所有的版本数据都保存在服务器上，协同开发者从服务器上同步更新或上传自己的修改
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/uJDAUKrGC7Ksu8UlITwMlbX3kMGtZ9p00V4uLaibxtZI9RLpq7tkSdlWiaF92AVeZ0ib9DicqBkS2poo5u8sEU2mCQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](https://mmbiz.qpic.cn/mmbiz_png/uJDAUKrGC7Ksu8UlITwMlbX3kMGtZ9p00V4uLaibxtZI9RLpq7tkSdlWiaF92AVeZ0ib9DicqBkS2poo5u8sEU2mCQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1
 
 所有的版本数据都存在服务器上，用户的本地只有自己以前所同步的版本，如果不连网的话，用户就看不到历史版本，也无法切换版本验证问题，或在不同分支工作。而且，所有数据都保存在单一的服务器上，有很大的风险这个服务器会损坏，这样就会丢失所有的数据，当然可以定期备份。代表产品：SVN、CVS、VSS
 
@@ -53,7 +79,7 @@
 
 不会因为服务器损坏或者网络问题，造成不能工作的情况！
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/uJDAUKrGC7Ksu8UlITwMlbX3kMGtZ9p0ev8Q7qXjsTfeSwFexdA4tGjFAiaVEKQzAHdGcINXILKflI2cfk9BiawQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](https://raw.githubusercontent.com/113737038537/Pic/main/11.webp)
 
 # 环境配置
 
@@ -63,7 +89,7 @@
 
 安装成功后在开始菜单中会有Git项，菜单下有3个程序：任意文件夹下右键也可以看到对应的程序！
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/uJDAUKrGC7Ksu8UlITwMlbX3kMGtZ9p0jaiaAfr2pAfWtFX57kGYqR3SlNxDlAZDkCU6IOB1YAicKxHib5yGbv9zQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](https://raw.githubusercontent.com/113737038537/Pic/main/12.webp)
 
 **Git Bash：**Unix与Linux风格的命令行，使用最多，推荐最多
 
@@ -228,7 +254,7 @@ Resolving deltas: 100% (1/1), done.
 PS D:\>
 ```
 
-<img src="C:\Users\YW\AppData\Roaming\Typora\typora-user-images\image-20240427144032500.png" alt="image-20240427144032500" style="zoom: 80%;" />
+<img src="https://raw.githubusercontent.com/113737038537/Pic/main/image-20240427144032500.png" alt="image-20240427144032500" style="zoom: 80%;" />
 
 # 文件操作
 
@@ -274,13 +300,13 @@ build/       #忽略build/目录下的所有文件
 doc/*.txt    #会忽略 doc/notes.txt 但不包括 doc/server/arch.txt
 ```
 
-<img src="C:\Users\YW\AppData\Roaming\Typora\typora-user-images\image-20240427151205606.png" alt="image-20240427151205606" style="zoom:67%;" align = "center"/>
+<img src="https://raw.githubusercontent.com/113737038537/Pic/main/image-20240427151205606.png" alt="image-20240427151205606" style="zoom:67%;" align = "center"/>
 
 ## ==Push到远程仓库==
 
 ### 实例
 
-#### 修改Git工作区内容
+#### 修改Git工作区内容(add)
 
 ```shell
 PS D:\Read> git status
@@ -308,7 +334,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 > - `Deep Learning/`：这是一个未跟踪的文件或文件夹。在这个例子中，它是一个名为`Deep Learning`的文件夹。
 > - `nothing added to commit but untracked files present (use "git add" to track)`：这表示没有文件被添加到暂存区，准备提交，但有未跟踪的文件存在。你可以使用`git add`命令将它们添加到暂存区，准备下一次提交。
 
-#### 添加到暂存区
+#### 添加到暂存区(commit)
 
 ```shell
 PS D:\Read> git add .
@@ -335,7 +361,7 @@ Changes to be committed:
 > - `(use "git restore --staged <file>..." to unstage)`：这是一个建议，告诉你如果你想取消暂存某些文件，可以使用`git restore --staged <file>`命令。
 > - `new file: Deep Learning/Note/Dive into Deep Learning.md`：这是一个将要被提交的新文件。在这个例子中，它是一个名为`Dive into Deep Learning.md`的文件，位于`Deep Learning/Note/`目录下。
 
-#### 提交到仓库
+#### 提交到仓库(push)
 
 ```shell
 PS D:\Read> git push https://github.com/113737038537/Read
@@ -363,9 +389,132 @@ To https://github.com/113737038537/Read
 >- `To https://github.com/113737038537/Read`：这是推送操作的目标地址，即你的远程仓库的URL。
 >- `a553799..d671878 main -> main`：这表示你的`main`分支已经被成功推送到远程仓库。`a553799..d671878`是这次推送操作的提交范围。
 
-![image-20240427155314026](C:\Users\YW\AppData\Roaming\Typora\typora-user-images\image-20240427155314026.png)
+![image-20240427155314026](https://raw.githubusercontent.com/113737038537/Pic/main/image-20240427155314026.png)
+
+## Clone/Pull
+
+> `git clone`和`git pull`都是Git中的命令，用于从远程仓库获取代码，但它们的用途是不同的。
+>
+> **git clone**
+>
+> `git clone`命令用于创建远程仓库的一个本地副本。也就是说，如果你想在本地机器上工作，但所有的代码都在远程Git仓库中，你可以使用`git clone`命令将整个仓库拷贝到本地。此命令将会在本地创建一个目录，拷贝仓库所有的文件到这个新目录中，并初始化一个`.git`目录，其中含有全部的版本管理信息。简单来说，`git clone`命令重建了远程仓库的所有内容和版本历史。
+>
+> **git pull**
+>
+> 相较于`git clone`，`git pull`命令则是在已经存在本地仓库的情况下使用的，用来更新本地仓库到最新版。当其他人在你`git clone`之后改变了远程仓库（例如提交了新的改动），你的本地仓库将不再是最新版本。在这种情况下，你可以使用`git pull`命令将这些新的提交拉取到本地，让你的本地仓库保持与远程仓库的一致性。
+>
+> 所以，两者的主要区别在于：
+>
+> - `git clone`是用来从远程获取Git仓库，并在本地创建一个相同的版本库；
+> - `git pull`则是用于已经被克隆的本地版本库，用来获取远程版本库中的最新提交和改动。
+
+### Clone
+
+```shell
+PS D:\Study> git clone https://github.com/113737038537/d2l-zh
+Cloning into 'd2l-zh'...
+remote: Enumerating objects: 23948, done.
+remote: Counting objects: 100% (197/197), done.
+remote: Compressing objects: 100% (104/104), done.
+remote: Total 23948 (delta 94), reused 176 (delta 91), pack-reused 23751
+Receiving objects: 100% (23948/23948), 309.44 MiB | 726.00 KiB/s, done.
+Resolving deltas: 100% (16756/16756), done.
+Updating files: 100% (834/834), done.
+warning: the following paths have collided (e.g. case-sensitive paths
+on a case-insensitive filesystem) and only one from the same
+colliding group is in the working tree:
+
+  'img/Marginal.svg'
+  'img/marginal.svg'
+  'img/Neuron.svg'
+  'img/neuron.svg'
+```
+
+>这段命令是执行在命令行中执行的一段`git clone`操作。
+>
+>让我们分步骤来解析这段命令：
+>
+>1. **`PS D:\Study> git clone https://github.com/113737038537/d2l-zh`**: 这是从远程仓库克隆项目到本地的命令。"PS D:\Study>"是表示你当前的工作路径是"D:\Study"，而"git clone https://github.com/113737038537/d2l-zh"命令是从该"https://github.com/113737038537/d2l-zh"地址的远程Git仓库中克隆项目到本地。
+>2. **`Cloning into 'd2l-zh'...`**: 表明正在克隆远程仓库到本地的"d2l-zh"目录。
+>3. **`remote: Enumerating objects: 23948, done.`**: 这表示远程仓库中总共有23948个对象。Git对象可以是blob（数据）、tree（目录）、commit（提交）或tag（标签）。
+>4. **`remote: Counting objects: 100% (197/197), done.`**: Git已经计算了需要拉取的对象总数。
+>5. **`remote: Compressing objects: 100% (104/104), done.`**: Git正在压缩传输对象以加速下载过程。
+>6. **`remote: Total 23948 (delta 94), reused 176 (delta 91), pack-reused 23751`**: 这里是Git接受对象阶段的统计信息。
+>7. **`Receiving objects: 100% (23948/23948), 309.44 MiB | 726.00 KiB/s, done.`**: 这表示已完成所有对象接收过程，数据量为309.44 MiB，速度为726.00 KiB/s。
+>8. **`Resolving deltas: 100% (16756/16756), done.`**: "delta"在Git中指的是文件的改动，这条消息表示所有的文件改动都已经解析完成。
+>9. **`Updating files: 100% (834/834), done.`**: 这表示所有的文件都已经更新完成。
+>10. **`warning: the following paths have collided (e.g. case-sensitive paths on a case-insensitive filesystem) and only one from the same colliding group is in the working tree:`**: 这是一个警告信息，表示在大小写不敏感的文件系统中，有些文件路径因为大小写的不同而发生了冲突。这种情况在Linux和Windows上经常发生，因为Linux的文件系统是大小写敏感的，而Windows的文件系统是大小写不敏感的。例如，`img/Marginal.svg`和`img/marginal.svg`在Linux中被视为两个不同的文件，但在Windows中被视为相同的文件。
+>11. **`'img/Marginal.svg' 'img/marginal.svg' 'img/Neuron.svg' 'img/neuron.svg'`**: 这些是因大小写不同而在大小写不敏感的文件系统产生冲突的文件路径。
+
+### Push
+
+```shell
+PS D:\Read> git pull
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 2 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (2/2), 880 bytes | 293.00 KiB/s, done.
+From https://github.com/113737038537/Read
+   e67324d..9dc0905  main       -> origin/main
+Updating d4bbc39..9dc0905
+Fast-forward
+ linux/notes/readme.md | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 linux/notes/readme.md
+```
+
+>你刚才执行的是一个`git pull`命令，这是从你的远程仓库拉取更新到本地的一个操作。现在我们来依次解释这段命令的输出：
+>
+>1. **`remote: Enumerating objects: 3, done.`**: 这是从远程仓库中获取对象信息，总共发现了3个对象。
+>2. **`remote: Counting objects: 100% (3/3), done.`**: 这一步是在计算需要获取的对象的数量，完成了全部的3个。
+>3. **`remote: Compressing objects: 100% (2/2), done.`**: 这一步是在压缩对象以便于传输，所有对象都已经被成功压缩。
+>4. **`remote: Total 2 (delta 1), reused 0 (delta 0), pack-reused 0`**: 这些是关于对象包的统计信息。总共有2个对象，其中1个是差异对象，没有重复利用。
+>5. **`Unpacking objects: 100% (2/2), 880 bytes | 293.00 KiB/s, done.`**: 这是在解压缩对象，在本地文件系统中写入这些更新。完成了全部的2个对象，包总大小880字节，下载速度为293.00 KiB/s。
+>6. **`From https://github.com/113737038537/Read`**: 这是显示你正在拉取更新的远程仓库地址。
+>7. **`e67324d..9dc0905 main -> origin/main`**: 这说明在远程仓库上的`main`分支已经由`e67324d`更新到了`9dc0905`。你的本地仓库需要做相应地更新。
+>8. **`Updating d4bbc39..9dc0905`**: 这表明你的本地`main`分支即将由`d4bbc39`更新到`9dc0905`。
+>9. **`Fast-forward`**: 这意味着，你的`main`分支是落后于`origin/main`的，没有发生冲突，可以直接“快进”更新到最新的状态。
+>10. **`linux/notes/readme.md | 0` `1 file changed, 0 insertions(+), 0 deletions(-)` `delete mode 100644 linux/notes/readme.md`**: 这些信息总结了具体的文件更新，`linux/notes/readme.md`这个文件被删除，没有插入的行，也没有删除的行。标记为`delete mode 100644`表明这个文件的模式由100644变为了删除。
 
 # 码云
 
 # IDEA中集成Git
 
+# Git分支
+
+分支在GIT中相对较难，分支就是科幻电影里面的平行宇宙，如果两个平行宇宙互不干扰，那对现在的你也没啥影响。不过，在某个时间点，两个平行宇宙合并了，我们就需要处理一些问题了！
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/uJDAUKrGC7Ksu8UlITwMlbX3kMGtZ9p0BOGzaG4QTc4JXO0hSlwcNtujNzAvxeibSrajLYLCT6otNnHDV9xYWwA/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/uJDAUKrGC7Ksu8UlITwMlbX3kMGtZ9p0Ayn87woxfepOhSlUj4FQTFUsia4ic0j6aQy4Tz32PRuJ0HSVeGeUzURA/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+git分支中常用指令：
+
+```shell
+# 列出所有本地分支
+git branch
+
+# 列出所有远程分支
+git branch -r
+
+# 新建一个分支，但依然停留在当前分支
+git branch [branch-name]
+
+# 新建一个分支，并切换到该分支
+git checkout -b [branch]
+
+# 合并指定分支到当前分支
+$ git merge [branch]
+
+# 删除分支
+$ git branch -d [branch-name]
+
+# 删除远程分支
+$ git push origin --delete [branch-name]
+$ git branch -dr [remote/branch]
+```
+
+如果同一个文件在合并分支时都被修改了则会引起冲突：解决的办法是我们可以修改冲突文件后重新提交！选择要保留他的代码还是你的代码！
+
+master主分支应该非常稳定，用来发布新版本，一般情况下不允许在上面工作，工作一般情况下在新建的dev分支上工作，工作完后，比如上要发布，或者说dev分支代码稳定后可以合并到主分支master上来。[](https://raw.githubusercontent.com/113737038537/Pic/main/image-20240429154454132.png)
