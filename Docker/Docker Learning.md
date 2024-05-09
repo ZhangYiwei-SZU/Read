@@ -591,7 +591,7 @@ docker run -d -p 3355:8080 --name tomcat0l tomcat
 > **特性**：一次同时加载多个文件系统，但从外面看起来，只能看到一个文件系统，联合加载会把各层文件系
 > 统叠加起来，这样最终的文件系统会包含所有底层的文件和目录。
 
-![image-20240429164806063](C:\Users\YW\AppData\Roaming\Typora\typora-user-images\image-20240429164806063.png)
+![image-20240429164806063](https://raw.githubusercontent.com/113737038537/Pic/main/image-20240429164806063.png)
 
 ### Linux基础知识
 
@@ -614,7 +614,7 @@ docker run -d -p 3355:8080 --name tomcat0l tomcat
 Docker镜像都是只读的，当容器启动时，一个新的可写层被加载到镜像的顶部!
 这一层就是我们通常说的容器层，容器之下的都叫镜像层!
 
-<img src="C:\Users\YW\AppData\Roaming\Typora\typora-user-images\image-20240429171240817.png" alt="image-20240429171240817" style="zoom:67%;" />
+<img src="https://raw.githubusercontent.com/113737038537/Pic/main/image-20240429171240817.png" alt="image-20240429171240817" style="zoom:67%;" />
 
 ### Commit镜像
 
@@ -639,7 +639,7 @@ centos01      1.0       3a46df3e4be5   7 seconds ago   231MB
 
 > 如果数据都在容器中，那么我们容器删除，数据就会丢失! 需求:数据可以持久化MySQL，容器删了，删库跑路!需求:MySQL数据可以存储在本地容器之间可以有一个数据共享的技术!Docker 容器中产生的数据，同步到本地!这就是卷技术!目录的挂载，将我们容器内的目录，挂载到Linux上面!
 
-<img src="C:\Users\YW\AppData\Roaming\Typora\typora-user-images\image-20240429174049319.png" alt="image-20240429174049319" style="zoom: 50%;" />
+<img src="https://raw.githubusercontent.com/113737038537/Pic/main/image-20240429174049319.png" alt="image-20240429174049319" style="zoom: 50%;" />
 
 **总结一句话：容器的持久化和同步操作**
 
