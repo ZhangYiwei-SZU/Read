@@ -26,6 +26,26 @@
 >
 > 
 
+PS D:\Read> git push https://github.com/ZhangYiwei-SZU/Read
+To https://github.com/ZhangYiwei-SZU/Read
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/ZhangYiwei-SZU/Read'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+这个报错是怎么产生的额？
+
+>这个错误是由于你正在尝试将你本地的更改推送(push)到GitHub仓库，但是该仓库在你上次拉取(pull)或克隆(clone)后有新的更改。换句话说，你本地的版本落后于GitHub上的版本。
+这通常发生在其他人或者包括你自己在其他设备上对同一个仓库进行了更改并推送到GitHub，再从别的设备试图推送不同的更改时。
+要解决这个问题，你需要首先拉取（pull）远程仓库的最新更改到你的本地仓库：
+plaintext
+git pull https://github.com/ZhangYiwei-SZU/Read main
+在执行这个命令后，Git将会拉取并合并远程仓库的最新更改。当然，如果在这个过程中存在你本地更改和远程更改冲突的情况，你需要手动解决这个冲突。解决完冲突后，再做一次推送（push）操作就可以成功了。
+另外，强调一下，为了避免这类问题的发生，在进行推送之前，最好先进行一次拉取操作，确保本地版本是最新的。
+>
+>我在github这边修改后，本地需要先pull拉取更新本地库，才能push
 
 
 # 版本控制
