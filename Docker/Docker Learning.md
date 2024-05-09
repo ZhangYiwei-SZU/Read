@@ -86,7 +86,7 @@ Why we need Docker?
 > java- apk-发布(应用商店)…--张三使用apk… 安装即可用!
 > java … jar(环境)…打包项目带上环境(镜像)…(Docker仓库:商店)…. 下载我们发布的镜像 … 直接运行即可!
 
-![](C:\Users\YW\AppData\Roaming\marktext\images\2024-04-23-09-59-59-image.png)
+![](https://raw.githubusercontent.com/113737038537/Pic/main/2024-04-23-09-59-59-image.png)
 
 名词概念：
 
@@ -153,11 +153,11 @@ Docker Hub(默认是国外的)
 
 ### Hello World
 
-![](C:\Users\YW\AppData\Roaming\marktext\images\2024-04-23-14-12-38-image.png)
+![](https://raw.githubusercontent.com/113737038537/Pic/main/2024-04-23-14-12-38-image.png)
 
 流程：
 
-<img src="file:///C:/Users/YW/AppData/Roaming/marktext/images/2024-04-23-14-13-38-image.png" title="" alt="" width="428">
+<img src="https://raw.githubusercontent.com/113737038537/Pic/main/2024-04-23-14-13-38-image.png" title="" alt="" width="428">
 
 ### Underlying principle
 
@@ -169,11 +169,11 @@ Docker 是一个 Client-Server 结构的系统，Docker的守护进程运行在�
 
 DockerServer 接收到 Docker-Client的指令，就会执行这个命令!
 
-![](C:\Users\YW\AppData\Roaming\marktext\images\2024-04-23-14-44-49-image.png)
+![](https://raw.githubusercontent.com/113737038537/Pic/main/2024-04-23-14-44-49-image.png)
 
 ### Aliyun image acceleration
 
-![](C:\Users\YW\AppData\Roaming\marktext\images\2024-04-25-10-12-05-image.png)
+![](https://raw.githubusercontent.com/113737038537/Pic/main/2024-04-25-10-12-05-image.png)
 
 ## Common commands for Docker
 
@@ -281,7 +281,7 @@ Status: Downloaded newer image for mysql:latest
 docker.io/library/mysql:latest #真实地址
 ```
 
-![](C:\Users\YW\AppData\Roaming\marktext\images\2024-04-25-10-30-27-image.png)
+![](https://raw.githubusercontent.com/113737038537/Pic/main/2024-04-25-10-30-27-image.png)
 
 联合文件系统的优势：当pull image存在相同层时，不再下载
 
@@ -516,13 +516,13 @@ Successfully copied 1.54kB to D:\
 C:\Users\YW>多敲！
 ```
 
-![image-20200617210554147](https://github.com/isenwen/learn_docker/raw/master/pic/image-20200617210554147.png)
+![image-20200617210554147](https://raw.githubusercontent.com/113737038537/Pic/main/image-20200617210554147.png)
 
-![image-20200617210932306](https://github.com/isenwen/learn_docker/raw/master/pic/image-20200617210932306.png)
+![image-20200617210932306](https://raw.githubusercontent.com/113737038537/Pic/main/image-20200617210932306.png)
 
-![image-20200617211021003](https://github.com/isenwen/learn_docker/raw/master/pic/image-20200617211021003.png)
+![image-20200617211021003](https://raw.githubusercontent.com/113737038537/Pic/main/image-20200617211021003.png)
 
-![image-20200617211039508](https://github.com/isenwen/learn_docker/raw/master/pic/image-20200617211039508.png)
+![image-20200617211039508](https://raw.githubusercontent.com/113737038537/Pic/main/image-20200617211039508.png)
 
 ### Practice
 
@@ -550,11 +550,11 @@ nginx: /usr/sbin/nginx /usr/lib/nginx /etc/nginx /usr/share/nginx
 root@ca78eafe9626:/#
 ```
 
-![](C:\Users\YW\AppData\Roaming\marktext\images\2024-04-26-09-32-46-image.png)
+![](https://raw.githubusercontent.com/113737038537/Pic/main/2024-04-26-09-32-46-image.png)
 
 * 端口暴露：通过外网访问容器服务，这里例子是3344
 
-![](C:\Users\YW\AppData\Roaming\marktext\images\2024-04-26-15-15-19-image.png)
+![](https://raw.githubusercontent.com/113737038537/Pic/main/2024-04-26-15-15-19-image.png)
 
 思考问题:我们每次改动nginx配置文件，都需要进入容器内部?十分的麻烦，我要是可以在容器外部提供一个映射路径，达到在容器修改文件名，容器内部就可以自动修改?- 数据卷!
 
@@ -686,11 +686,11 @@ C:\Users\YW>docker run -it -v D:\:/home centos /bin/bash
 #docker inspect container_id 查看挂载详情
 ```
 
-![image-20240430083621327](C:\Users\YW\AppData\Roaming\Typora\typora-user-images\image-20240430083621327.png)
+![image-20240430083621327](https://raw.githubusercontent.com/113737038537/Pic/main/image-20240430083621327.png)
 
 > 挂载后内容同步
 
-![image-20240430083845842](C:\Users\YW\AppData\Roaming\Typora\typora-user-images\image-20240430083845842.png)
+![image-20240430083845842](https://raw.githubusercontent.com/113737038537/Pic/main/image-20240430083845842.png)
 
 ### 实战：安装MySQL
 
