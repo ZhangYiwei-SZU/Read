@@ -197,3 +197,7 @@ consent
 gist
 
 snippets
+
+verbose
+
+console
