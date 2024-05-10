@@ -576,3 +576,5 @@ $ git branch -dr [remote/branch]
 master主分支应该非常稳定，用来发布新版本，一般情况下不允许在上面工作，工作一般情况下在新建的dev分支上工作，工作完后，比如上要发布，或者说dev分支代码稳定后可以合并到主分支master上来。
 
 ![](https://raw.githubusercontent.com/113737038537/Pic/main/image-20240429154454132.png)
+
+1111
