@@ -195,3 +195,5 @@ seamless
 consent
 
 gist
+
+snippets

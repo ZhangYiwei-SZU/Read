@@ -6,10 +6,12 @@
 
 # [帮助文档](https://docs.github.com/zh)
 
+# [Git-it](https://jlord.us/git-it/)
+
 # 遇到的问题
 
-> **为什么我push后，一级目录的文件夹名是linux/notes，里面是readme.md，而不是linux是一级目录，notes是二级目录，里面是readme.md?**
->
+**为什么我push后，一级目录的文件夹名是linux/notes，里面是readme.md，而不是linux是一级目录，notes是二级目录，里面是readme.md?**
+
 > 从你提供的信息来看，你的GitHub仓库`Read`中确实存在一个`linux/notes`的路径，其实这就表示`notes`是`linux`的子目录。在这个子目录下，应该存在你提交的`readme.md`文件。
 >
 > 但如果你觉得显示为`linux/notes`有些困扰，那可能是因为GitHub在显示文件和文件夹时，会将路径中的所有层级一起显示出来，而不是像我们在本地文件系统中看到的那样，一层一层地展开。
@@ -26,16 +28,16 @@
 >
 > 
 
-PS D:\Read> git push https://github.com/ZhangYiwei-SZU/Read
-To https://github.com/ZhangYiwei-SZU/Read
- ! [rejected]        main -> main (fetch first)
-error: failed to push some refs to 'https://github.com/ZhangYiwei-SZU/Read'
-hint: Updates were rejected because the remote contains work that you do not
-hint: have locally. This is usually caused by another repository pushing to
-hint: the same ref. If you want to integrate the remote changes, use
-hint: 'git pull' before pushing again.
-hint: See the 'Note about fast-forwards' in 'git push --help' for details.
-这个报错是怎么产生的额？
+**PS D:\Read> git push https://github.com/ZhangYiwei-SZU/Read**
+**To https://github.com/ZhangYiwei-SZU/Read**
+ **! [rejected]        main -> main (fetch first)**
+**error: failed to push some refs to 'https://github.com/ZhangYiwei-SZU/Read'**
+**hint: Updates were rejected because the remote contains work that you do not**
+**hint: have locally. This is usually caused by another repository pushing to**
+**hint: the same ref. If you want to integrate the remote changes, use**
+**hint: 'git pull' before pushing again.**
+**hint: See the 'Note about fast-forwards' in 'git push --help' for details.**
+**这个报错是怎么产生的？**
 
 >这个错误是由于你正在尝试将你本地的更改推送(push)到GitHub仓库，但是该仓库在你上次拉取(pull)或克隆(clone)后有新的更改。换句话说，你本地的版本落后于GitHub上的版本。
 这通常发生在其他人或者包括你自己在其他设备上对同一个仓库进行了更改并推送到GitHub，再从别的设备试图推送不同的更改时。
@@ -47,6 +49,17 @@ git pull https://github.com/ZhangYiwei-SZU/Read main
 >
 >我在github这边修改后，本地需要先pull拉取更新本地库，才能push
 
+**命令行的规则**
+
+> 在命令行语法中，中括号（[]）和尖括号（<>）的含义是不同的。它们分别表示如下： - 中括号（[]）：中括号包围的参数表示该参数是可选的。也就是说，你可以在命令中包含该参数，也可以不包含。如果不包含该参数，命令通常会使用一些默认的设置或者行为。 - 尖括号（<>）：尖括号包围的部分表示该部分需要被用户替换。你需要将尖括号及其内部的内容替换为实际的值或者内容。 例如，对于`git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>`这个命令： - `[-t <branch>]`表示 `-t` 是一个可选的参数，如果你选择使用这个参数，那么你需要将`<branch>`替换为实际的分支名。 - `<name>`和`<url>`是需要被替换的部分，你需要将它们替换为实际的远程仓库别名和URL。
+
+**为什么有些仓库中的文件夹中有.github文件夹却没有.git文件夹？**
+
+> 在一个Git仓库中，`.git`文件夹是非常重要的，它存储了所有关于版本控制的信息，包括提交历史、分支、标签等。然而，你通常在本地仓库中可以看到`.git`文件夹，而在GitHub上在线仓库中却看不到。这是因为，GitHub在展示仓库时默认隐藏了这个文件夹。实际上，`.git`文件夹是存在的，只不过被GitHub隐藏了。
+>
+> 而`.github`文件夹是用来存放GitHub特性相关的配置文件的，如GitHub Actions的工作流程配置，Issue和Pull Request的模板等。这个文件夹和`.git`文件夹的用途是完全不同的。`.github`文件夹通常需要开发者手动创建，并在其中添加相应的配置文件。GitHub在展示仓库时，并不会隐藏`.github`文件夹，因此你可以在在线仓库中直接看到这个文件夹。
+>
+> 所以，你在GitHub的在线仓库中可以看到`.github`文件夹却看不到`.git`文件夹，这是正常的，不需要担心。
 
 # 版本控制
 
