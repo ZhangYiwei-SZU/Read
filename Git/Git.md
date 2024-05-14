@@ -577,9 +577,55 @@ master主分支应该非常稳定，用来发布新版本，一般情况下不�
 
 ![](https://raw.githubusercontent.com/113737038537/Pic/main/image-20240429154454132.png)
 
-> 实战
+> 实战：test分支和main分支合并
 
+```shell
+git branch 
+git checkout
+git merge
 ```
-修改当前
+
+```shell
+PS D:\Read> git branch #查看当前分支
+  main
+* test
+PS D:\Read> git status #当前test分支中git文件被修改
+On branch test
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Git/Git.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS D:\Read> git add .
+PS D:\Read> git commit -m "update git" #commit
+[test f6ac3fb] update git
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+PS D:\Read> git checkout main #切换到主分支
+Switched to branch 'main'
+PS D:\Read> git merge test #est 分支上的所有新提交都合并到 main 分支
+Updating a173ad2..f6ac3fb
+Fast-forward
+ Git/Git.md | 7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+PS D:\Read>
 ```
+
+> `git merge` 和 `git pull`比较
+>
+> `git merge` 和 `git pull` 都是 Git 中用于将更改从一个分支合并到另一个分支的命令。虽然他们在很多情况下都有相似的结果，但是他们的工作方式和使用场景有很大的不同。下面是他们的相似之处和不同之处： 
+>
+> 相同之处： 
+>
+> * 两者都可以将一个分支上的更改合并到当前分支。 
+>
+> 不同之处：
+>
+> * `git merge` 是一个本地操作，其会把指定分支的最新更改合并到当前分支。当开发者想把一些独立开发的功能合并到主分支时，通常会使用这个命令。
+>
+> * `git pull` 实际上是 `git fetch` + `git merge` 的组合操作。在默认情况下，`git pull` 会从远程仓库获取或"拉取"数据到本地，然后尝试合并远程分支到当前分支。当开发者想获取远程仓库的最新更改并合并到本地分支时, 他们通常会使用 `git pull`。
+>
+> 总的来说，`git merge` 和 `git pull` 都是用于合并更改的，但 `git merge` 是在本地分支之间进行操作，而 `git pull` 是用于从远程仓库拉取更改并合并到本地分支。
+
+
 
