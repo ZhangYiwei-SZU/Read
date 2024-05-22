@@ -486,3 +486,128 @@ surge in popularity 人气飙升
 > At each time step, the agent receives some *observation* from the environment and must choose an *action* that is subsequently transmitted back to the environment via some mechanism (sometimes called an *actuator*), 
 
 is subsequently transmitted back to 随后传输回去
+
+### week4
+
+> If you are interested in using machine learning to develop an agent that interacts with an environment and takes actions, then you are probably going to wind up focusing on reinforcement learning. 
+
+wind up 最终处于，结束于
+
+> Reinforcement learning gives a very general statement of a problem in which an agent interacts with an environment over a series of time steps. 
+
+在英语中，有许多介词可以用于表示时间关系。以下是一些常见的例子：
+
+1. "At"：用于具体的时间点，如 "at 3 o'clock"（在三点钟）。
+2. "On"：用于具体的日期或星期几，如 "on Monday"（在星期一）或 "on March 8th"（在三月八日）。
+3. "In"：用于年份、月份、季节、世纪、一天中的某个时段等，如 "in 2020"（在2020年）、"in March"（在三月）、"in the morning"（在早晨）。
+4. "By"：表示在某时间之前，如 "by 5 o'clock"（在五点之前）。
+5. "Before"：表示在……之前，如 "before the meeting"（在会议之前）。
+6. "After"：表示在……之后，如 "after lunch"（午餐后）。
+7. "During"：表示在某个时间段内，如 "during the holiday"（在假期期间）。
+8. "Until" / "Till"：表示直到某个时间，如 "until tomorrow"（直到明天）。
+9. "Since"：表示从某个时间点开始直到现在，如 "since 1990"（自1990年以来）。
+10. "For"：表示一段时间，如 "for three hours"（三小时）。
+
+
+
+"Over"和"for"都可以用来表示一段时间，但它们的用法和含义有一些细微的差别。
+
+1. "Over"：通常用来表示在一段时间内的动作或事件的完成或发生。例如，"I read the book over the weekend"（我在周末读完了这本书）。
+2. "For"：用来表示动作或状态的持续时间。例如，"I have been reading for two hours"（我已经读了两个小时了）。
+
+> The reinforcement learner must constantly choose whether to *exploit* the best (currently) known strategy as a policy, or to *explore* the space of strategies, potentially giving up some short-term reward in exchange for knowledge.
+
+short-term 短期的
+
+> Accounting for all this complexity at once may be asking too much.
+
+account for 解释
+
+> knowledge of the basic linear algebraic operations that we apply to high-dimensional data elements;
+
+linea ralgebraic operation 线性代数运算
+
+preliminaries 预备知识
+
+> Zotero is, at the most basic level, a reference manager. It is designed to store, manage, and cite bibliographic references, such as books and articles
+
+bibliographic adj. 书目的；书籍解题的
+
+Attachments 附件
+
+> It has been a longstanding research challenge to achieve this goal, to enable machines to read, write, and communicate like humans
+
+longstanding adj.长期存在的
+
+> LM aims to model the generative likelihood of word sequences, so as to predict the probabilities of future (or missing) tokens.
+
+so as to 目的是，意图是
+
+> Since the researchers have found that model scaling can lead to an improved model capacity, they further investigate the scaling effect by increasing the parameter scale to an even larger size.
+
+scaling 增加、扩展或提升语言模型的规模或能力
+
+> these large-sized PLMs display different behaviors from smaller PLMs (e.g., 330M-parameter BERT and 1.5Bparameter GPT-2) and show surprising abilities (called emergent abilities [31]) in solving a series of complex tasks.
+
+涌现能力 
+
+> BERT [23] was proposed by pre-training bidirectional language models with specially designed pre-training tasks on large-scale unlabeled corpora.
+
+corpora 语料库
+
+> A remarkable application of LLMs is ChatGPT2 that adapts the LLMs from the GPT series for dialogue
+
+adapt ... for 使...适应于
+
+> Furthermore, pre-trained language models learned context-aware representations that can be optimized according to downstream tasks. For the latest generation of language model, LLMs are enhanced by exploring the scaling effect on model capacity, which can be considered as general-purpose task solvers. To summarize, in the evolution process, the task scope that can be solved by language models have been greatly extended, and the task performance attained by language models have been significantly enhanced.
+
+"Context-aware"在这里指的是预训练的语言模型具有学习上下文关系的能力。这些模型可以理解和解释输入信息的上下文，再根据上下文来预测下一个词或者完成特定的任务。简单来说，它们能够理解词语之间的关系并使用这种理解来改善预测和任务完成的性能。
+
+而"downstream tasks"则指的是在预训练模型基础上需要进一步完成的任务，也就是说，预训练的模型会提供一种学习到的通用性表达，然后这种表达可以被进一步优化，以便应对下游的特定任务，如文本分类、命名实体识别、情感分析等任务。通常来说，优化会涉及对模型参数的一些微调，以适应下游任务的特定需求。因此，预训练的模型只是完成下游任务的第一步。
+
+> In the existing literature, PLMs have been widely discussed and surveyed [36–39], while LLMs are seldom reviewed in a systematic way. To motivate our survey, we first highlight three major differences between LLMs and PLMs.
+
+motivate 提供理由,建立基础  通过强调这两者之间的区别，可以说明为什么需要对LLMs进行更系统的审查和研究。
+
+>The training of LLMs requires extensive practical experiences in large-scale data processing and distributed parallel training. To develop capable LLMs, researchers have to solve complicated engineering issues, working with engineers or being engineers.
+
+distributed parallel training 分布式并行训练
+
+> Nowadays, LLMs are posing a significant impact on the AI community, and the advent of ChatGPT and GPT-4 leads to the rethinking of the possibilities of artificial general intelligence (AGI).
+
+AGI 强AI，与人类匹配的认知能力
+
+> Due to the huge demand of computation resources, it is very costly to carry out repetitive, ablating studies for investigating the effect of various strategies for training LLMs.
+
+carry out 执行
+
+repetitive 重复的
+
+"ablating studies" 是一种研究方法，通常用于在科学和工程领域中，通过逐步移除或修改某些变量或组件，以研究它们对整体系统性能的影响。这种方法被称为"ablation study" 或 "ablative analysis"。
+
+> We thoroughly comb the literature and summarize the key findings, techniques, and methods of LLMs.
+
+comb 梳理
+
+> Extensive research has shown that scaling can largely improve the model capacity of LLMs [26, 55, 56]. Thus, it is useful to establish a quantitative approach to characterizing the scaling effect. Next, we introduce two representative scaling laws for Transformer language models [30, 34].
+
+"Scaling law"（规模化法则 or 尺度定律）在这里指的是一种定量方法，用于描述和预测大型语言模型（如Transformer模型）性能随模型规模（如参数数量、训练数据的大小、计算资源等）增加而改变的规律
+
+文章解释：[阿里云](https://developer.aliyun.com/article/1446631)
+
+> Firstly, for large models, it is infeasible to rigorously examine various training tricks or variants, and it would be very helpful if experiences gained from small models could also apply to large models.
+
+infeasible 不可行的
+
+tricks 技巧
+
+variant 变体
+
+> Secondly, the training of large-scale models takes a long time, often suffering from issues such as training loss spike, and scaling law can be employed to monitor the training status of LLMs, e.g., identifying abnormal performance at an early time. Despite that scaling law characterizes a smooth trend of performance increase (or loss decrease), it also indicates that diminishing returns might occur as model scaling.
+
+training loss spike 训练损失突增
+
+characrerizes 描述
+
+"Diminishing returns"是一个经济学术语，原意指的是在生产过程中，当一个生产要素（如资本、劳动力或原材料）的投入量增加时，其他条件保持不变，新增加的产出（回报）会逐渐减少。换句话说，每增加一单位的投入，所获得的额外产出会越来越少，直到最终可能为零或负值。 在这段话中，"diminishing returns"被用来形容在大型语言模型规模增加时可能遇到的情况。初始阶段，模型规模的增加可以带来显著的性能提升，但随着模型规模继续扩大，每一次增加所带来的性能提升会变得越来越小。这表明在达到一定规模后，继续增加模型大小的成本效益逐渐降低。
+
