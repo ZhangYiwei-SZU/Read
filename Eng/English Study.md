@@ -634,3 +634,90 @@ alleviate data scarity 减轻数据稀缺
 > 随机梯度下降（SGD）的全称是 Stochastic Gradient Descent。这是一种优化算法，用于调整深度学习和其他机器学习模型的参数，以最小化损失函数。"Stochastic" 一词指的是算法在每一步更新中使用随机抽样的子集来计算梯度。
 
 Stochastic 随机的
+
+### Week2
+
+> Our fastest and most affordable flagship model
+
+affordable 便宜的
+
+flagship 旗舰产品
+
+> Enter an instruction or select a preset, and watch the API respond with a message that attempts to match or answer the query.
+
+preset 预设
+
+> Controls diversity via nucleus sampling: 0.5 means half of all likelihood-weighted options are considered.
+
+nucleus sampling 核采样
+
+top_p 
+
+> 在ChatGPT和其他基于GPT的语言模型中，`top_p`是一种称为nucleus sampling或top-p sampling的文本生成策略的参数。这种策略在生成文本时考虑可能性最高的下一个词的累积概率分布。
+>
+> 具体来说，`top_p`参数设置了一个概率阈值`p`，模型在每一步生成词汇时，会从概率最高的一组词汇中进行选择，这组词汇的累积概率至少为`p`。通过这种方式，模型只考虑那些累积概率达到阈值`p`的词汇，而忽略那些累积概率较低的不太可能的词汇。
+>
+> 假设我们让一个基于GPT的模型完成这个句子：“太阳落山后，天空呈现出一片……”，并且我们考虑使用不同的`top_p`值来控制生成的多样性。
+>
+> **`top_p`值较低的情况（例如，`top_p=0.3`）**
+>
+> 当`top_p`值较低时，模型在选择下一个词时更加保守，主要考虑那些概率最高的词汇。在这种情况下，模型可能会生成比较常见或预期的词汇来完成句子，如：“太阳落山后，天空呈现出一片**红色**。”这里，“红色”是一个相对常见的描述天空颜色的词汇，因为它的概率较高，容易被模型选中。
+>
+> **`top_p`值较高的情况（例如，`top_p=0.9`）**
+>
+> 当`top_p`值较高时，模型在生成文本时更加开放和多样，会考虑更广泛的词汇选择。这时，模型可能会生成一些更具创造性或不那么常见的词汇来完成句子，如：“太阳落山后，天空呈现出一片**橘紫交错的光辉**。”在这个例子中，由于`top_p`值较高，模型考虑了一组累积概率达到90%的词汇，这允许模型探索更多样化和具有创造性的表达方式。
+>
+> 通过调整`top_p`值，我们可以控制模型在生成文本时的保守程度和多样性。较低的`top_p`值让模型倾向于选择更加确定和常见的词汇，而较高的`top_p`值鼓励模型探索更广泛的可能性，生成更有创造性和多样性的文本。
+
+> The OpenAI API uses API keys for authentication. You can create API keys at a user or service account level. Service accounts are tied to a "bot" individual and should be used to provision access for production systems. Each API key can be scoped to one of the following,
+
+be scoped to 被限定在...范围内
+
+> Transcribes audio into the input language.
+
+"Transcript" 和 "Transcribe" 是两个相关但不同的术语，通常用于与文本和音频处理相关的领域。
+
+- Transcript
+
+"Transcript" 是一个名词，指的是已经完成的文字记录或文本副本。它通常是对某段对话、演讲、视频或音频内容的逐字记录。换句话说，"transcript" 是最终的产物，是一份完整的文本文件或记录。
+
+**例子**：
+
+- 会议记录：会议结束后，秘书会提供一份会议记录（transcript），详细记录会议中的每一句话。
+- 采访记录：记者采访完某人后，可能会将采访内容转录成文本记录（transcript）。
+- 学术讲座记录：学生可以参考讲座的文字记录（transcript）来复习内容。
+
+- Transcribe
+
+"Transcribe" 是一个动词，指的是将语音、视频或其他音频内容转录成文本的过程。这个过程可以是手动完成的（由人类逐字记录），也可以是自动完成的（由语音识别软件进行转录）。
+
+**例子**：
+
+- 手动转录：一个人听录音并将其内容逐字记录下来，这个过程就是"transcribe"。
+- 自动转录：使用语音识别软件将音频文件转录成文本，这个过程也是"transcribe"。
+
+**例句**：
+
+- "I need to transcribe the interview by tomorrow."（我需要在明天之前把采访内容转录出来。）
+- "The software can automatically transcribe audio files into text."（这个软件可以自动将音频文件转录成文本。）
+
+总结
+
+- **Transcript**：指的是已经完成的文字记录或文本文件，是名词。
+- **Transcribe**：指的是将音频或视频内容转录成文本的过程，是动词。
+
+简单来说，**"transcribe"** 是一个动作，表示转录的过程；而 **"transcript"** 是这个动作的结果，即转录后的文本记录。
+
+> gpt assistnat training pipeline
+
+pipeline 流水线；步骤
+
+![image-20240611164858159](https://raw.githubusercontent.com/ZhangYiwei-SZU/Pic/main/image-20240611164858159.png)
+
+ensemble 融合；集成
+
+self-consistency 自洽性
+
+> Ask GPT:Did you meet the assignment?
+
+meet the assig完成任务
