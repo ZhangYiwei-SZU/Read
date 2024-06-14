@@ -447,7 +447,7 @@ git remote -h
 
 ![image-20240427155314026](https://raw.githubusercontent.com/113737038537/Pic/main/image-20240427155314026.png)
 
-## Clone/Pull
+### Clone/Pull
 
 > `git clone`和`git pull`都是Git中的命令，用于从远程仓库获取代码，但它们的用途是不同的。
 >
@@ -502,7 +502,7 @@ colliding group is in the working tree:
 >10. **`warning: the following paths have collided (e.g. case-sensitive paths on a case-insensitive filesystem) and only one from the same colliding group is in the working tree:`**: 这是一个警告信息，表示在大小写不敏感的文件系统中，有些文件路径因为大小写的不同而发生了冲突。这种情况在Linux和Windows上经常发生，因为Linux的文件系统是大小写敏感的，而Windows的文件系统是大小写不敏感的。例如，`img/Marginal.svg`和`img/marginal.svg`在Linux中被视为两个不同的文件，但在Windows中被视为相同的文件。
 >11. **`'img/Marginal.svg' 'img/marginal.svg' 'img/Neuron.svg' 'img/neuron.svg'`**: 这些是因大小写不同而在大小写不敏感的文件系统产生冲突的文件路径。
 
-### Push
+### Pull
 
 ```shell
 PS D:\Read> git pull

@@ -635,7 +635,7 @@ alleviate data scarity 减轻数据稀缺
 
 Stochastic 随机的
 
-### Week2
+### week2
 
 > Our fastest and most affordable flagship model
 
@@ -721,3 +721,11 @@ self-consistency 自洽性
 > Ask GPT:Did you meet the assignment?
 
 meet the assig完成任务
+
+> **PromptSource is a toolkit for creating, sharing and using natural language prompts.**
+
+toolkit 工具包
+
+> A common denominator in these works is the use of prompts which has gained interest among NLP researchers and engineers. This emphasizes the need for new tools to create, share and use natural language prompts.
+
+common denominator 共同点
