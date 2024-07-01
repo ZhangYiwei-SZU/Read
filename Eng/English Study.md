@@ -729,3 +729,270 @@ toolkit 工具包
 > A common denominator in these works is the use of prompts which has gained interest among NLP researchers and engineers. This emphasizes the need for new tools to create, share and use natural language prompts.
 
 common denominator 共同点
+
+### week3
+
+> What readers fear the most while reading a scientific paper is to get stuck or left behind. They are stuck when the experienced writer zigzags around the familiar obstacles in the knowledge field, whilst readers crash into them; and they are left behind when the knowledgeable writer runs where they can only walk.
+>
+> 读者在阅读科学论文时最害怕的是陷入困境或被抛在后面。当经验丰富的作者在知识领域中绕过熟悉的障碍时，读者却撞上了它们；当知识渊博的作者在他们只能步行的地方奔跑时，读者就被抛在了后面。
+
+ziazag 绕过
+
+> Good writing should therefore take into account the reader’s ignorance, fatigue, short-term memory, and impatience in order to minimise their impact.
+
+ignorance 无知，未知
+
+fatigue 疲劳
+
+> Unique writing techniques rarely presented in books on technical writing will bring the writer closer to the six qualities that are the hallmark of great scientific writing: fluid, organised, clear, concise, convincing, and interesting (FOCI).
+
+hallmark 特点
+
+fluid 流畅的
+
+>  This book comes with a metaphorical box of chocolates: 48 stories designed to liven up reading and reinforce the learning process. It also comes with a core of 100 examples inspired or quoted from scientific articles.
+
+metaphorical 比喻的
+
+> In their assessment of the course, the participants highlighted benefits; some expected, some unexpected.
+
+assessment 评估
+
+highlighted 强调
+
+> Junior scientists without any publishing experience were relieved that they no longer had to blindly imitate the work of others, not knowing whether what they were imitating was good or bad. Unexpectedly, even senior scientists with great publishing experience found that the seminar had improved their analytical reading skills and had equipped them with a method to conduct better peer reviews.
+
+在职称和级别上，**senior scientist**（高级科学家）的级别比**junior scientist**（初级科学家）更高。
+
+解释：
+
+- **Junior Scientist**（初级科学家）：通常指刚开始其科研职业生涯的科学家，可能是刚获得博士学位或在科研领域工作经验较少的人。
+- **Senior Scientist**（高级科学家）：通常指在科研领域有丰富经验和成就的科学家，通常拥有较长的工作经历，可能负责领导科研项目或团队。
+
+> Before turning the page, words of appreciation are due.
+
+在翻页之前，应该表达感谢之情。
+
+> The Tense of Verbs in an Abstract
+
+tense of verbs 动词的时态
+
+> Sustain Attention to Ensure Continuous Reading
+
+sustain attention 保持注意力
+
+> This title probably conjures up the image of a schoolboy’s pencilcase containing a few chosen articles designed to help reading: a pair of glasses, a bookmark, instant coffee, etc. However, this toolkit is quite special. It contains resources invisible to the naked eye, like time, memory, energy, attention, and motivation. A skillful writer minimises the time, memory, and energy needed for reading, while keeping reader attention and motivation high.
+
+conjure up 使人联想到，想象出
+
+pencilcase 铅笔盒
+
+instant coffee 速溶咖啡
+
+naked eye 肉眼
+
+> require less from memory
+
+减少对记忆的需求
+
+> The Forgotten Acronym
+
+acronym 首字母缩略词
+
+> The Diverting Synonym
+
+synonym 同义词
+
+diverting 转移注意力的
+
+> Make Important Things Stand Out
+
+stand out 突出，显眼
+
+> Illustrate to Clarify
+
+illustrate 插图
+
+> Notice the just-in-time definition of the acronym in the following example.
+
+just in time 即时的
+
+> Scientific readers favour visuals — fast food for the brain, “information burgers” that reduce reading time and increase the informative value of an article.
+
+visuals 图形
+
+> To set an expectation is like creating a void that other sentences will fill. Not filling that void is tantamount to frustrating readers by not bringing closure.
+
+Tantamount - 等同于
+
+Closure - 结论
+
+> Readers expect the author to bring evidence to justify scientific claims.
+
+elaborate 详细说明，阐述
+
+> from hypothesis to observations, and from results to analysis and interpretation.
+
+从假设到观察，从结果到分析和解释
+
+> The art of construction is acquired through a long apprenticeship
+
+apprenticeship 学徒期
+
+apprentice 学徒
+
+> Each stage of the construction of a house contributes to its overall quality. Similarly, each part of an article contributes to the quality of the whole, from the abstract (the architectural blueprint) and the structure (the foundations) to the introduction (the flight of steps and the landing in front of your main door), the visuals (the light-providing windows), and finally the conclusion (the handing out of the key to knowledge). The art of construction is acquired through a long apprenticeship. You may be attracted by the time-saving expedient prefab (even its name indicates that it is a shortcut), or by the imitation of other constructions of uncertain architectural quality. Beware of shortcuts. A thorough analysis of the different parts of a hastily assembled paper often reveals major cracks and faults: the shapeless structure is like a pair of baggy jeans that fit just about any frame, while the graphics and other visuals have a mouse- and mass-produced look and feel.
+>
+> 建造房子的每个阶段都会对其整体质量产生影响。同样，文章的每个部分也会影响整体质量，从摘要（建筑蓝图）和结构（地基）到引言（通向主门的台阶和门前的着陆区）、视觉效果（提供光线的窗户）以及最后的结论（知识的钥匙）。建造的艺术是通过长期的学徒期获得的。你可能会被节省时间的预制件所吸引（甚至它的名字都表明它是一条捷径），或者被其他不确定建筑质量的仿制品所吸引。要小心捷径。对匆忙拼凑的论文的不同部分进行深入分析，往往会揭示出重大缺陷和错误：无形的结构就像一条适合任何体型的宽松牛仔裤，而图形和其他视觉效果则有一种鼠标点击和批量生产的感觉。要构建一套令人满意的部分，必须理解每个部分对读者和作者的作用；要评估它们的质量，必须建立评估标准。接下来的章节将实现这些目标，并提供大量示例进行分析，帮助区分好文章和坏文章。
+
+Handing out - 发放
+
+time saving expedient prefab 节省时间的预制件
+
+expedient 方便的
+
+prefab 预制件
+
+Hastily - 匆忙地
+
+Imitation - 仿制品
+
+> Today, as the city’s bowels demonstrate their usual constipation, the pouring rain adds a somewhat slimy aspect to the slow procession of traffic. Professor Leontief does not like arriving late at the lab. He hangs his dripping umbrella over the edge of his desk, at its designated spot above the trashcan, and he gently awakens his sleepy computer with some soothing words: “Come on, you hunk of metal and silicon oxide, wake up.”
+
+bowel 肠道
+
+Constipation - 便秘（这里比喻交通拥堵）
+
+> being a resourceful man, he makes a couple of telephone calls and reorganises his work schedule so as to free up an immediately available 2-hour slot.
+
+resourceful 足智多谋的
+
+so as to 为了
+
+free up 腾出（时间）
+
+> The difference between making ripples or making waves will then be a matter of scientific excellence — a topic I leave in your good and capable hands
+
+a matter of 取决于
+
+制造涟漪和掀起波浪之间的区别将取决于科学卓越性
+
+> What makes your face unique is the way its features are assembled harmoniously.
+
+assemble 组合，装配
+
+harmoniously  和谐地
+
+> Scientist: By all means, go ahead!
+
+by all means 当然
+
+> You are perfectly entitled to logically infer that from the title.
+
+logically infer 逻辑推断
+
+> Silicon-on-insulator
+
+insulator 绝缘体
+
+> Besides and and or, other prepositions can also be quite ambiguous in titles. For example, the preposition with could mean together with as in “coffee with milk”, or it could mean using as in “to move the ground with a shovel”.
+
+preposition 介词
+
+> 读文献是有技巧和优先级的，不要一脑袋就扎进去瞎读。具体优先级如下：1）近一到两年你大致研究方向的[文献综述](https://www.zhihu.com/search?q=文献综述&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra={"sourceType"%3A"answer"%2C"sourceId"%3A1945330900})。这种综述一般会帮你把各种流派以及最先进的方法整理出来，读完后你会有一个大概的big picture 2）近五年内该方向的经典著作（高引用，具有启发性的）。这类文章一般也有很多博客讲解，原文读不懂可以看别人的博客。3）带开源代码，近两年的顶会sota. 4)无开源代码，近两年的顶会sota.
+
+sota:state of the art 
+
+当前最优水平或最先进的模型、算法或技术
+
+> The time has come for our last title. It is somewhat tricky.
+
+tricky 棘手
+
+> The heart plays an essential role in the human body. Similarly, the essence of an article is its abstract. It goes to the core.
+
+essence 精华
+
+> The skeleton gives a frame to the body. With it, the reinforced body takes shape;
+
+reinforced 强化的，增强的
+
+> The most detailed part of a structure contains the largest amount of contributive details.
+
+the largest amount of 最多的
+
+contributive 有用的
+
+> Three Principles for a Good Structure A structure that plays its role follows these principles: 1. The contribution guides its shape. 2. Title words are repeated in its headings and subheadings. 3. It tells a story clearly and completely in its broad lines.
+
+Broad lines - 大纲
+
+> Studying the structure of your paper will allow you to identify important problems. Your paper may be too complex, too detailed, too premature, or too shallow.
+
+premature 草率的，不成熟的
+
+> Nonlinear finite element simulation to elucidate the efficacy
+
+elucidate 阐述，解释
+
+> A structure should be the most detailed where the author has the most to write about, namely the scientific contribution of the paper.
+
+the most 定量词组，表示数量最多的东西（最多内容要写的部分）
+
+namely 也就是说
+
+> The structure expands to accommodate the level ofdetails required to fullydevelop the contribution
+
+accommodate 适应
+
+> The contribution is often found under the heading that has the deepest level of indentation and the largest number of subheadings.
+
+indentation 缩进
+
+> This first principle has a corollary: when excessively detailed parts do not contain much contribution, the structure has a problem.
+
+corollary 推论，结论
+
+> Syntactic Rules for Headings
+
+syntactic 句法的，语法的
+
+> It contains data and grad, which storage the value of node and gradient w.r.t loss respectively.
+>
+> 它包含数据和梯度，分别存储节点的值和相对于损失（loss）的梯度
+
+w.r.t **with respect to（w.r.t）**：表示某个量或变量相对于另一个量或变量的关系。例如，在微积分中，当我们说“导数 w.r.t x”时，我们指的是函数相对于变量 x 的导数。
+
+> Applies a linear transformation to the incoming data:
+>
+> *y*=*x**A**T*+*b*
+>
+> - **bias** ([*bool*](https://docs.python.org/3/library/functions.html#bool)) – If set to `False`, the layer will not learn an additive bias. Default: `True`
+
+bias 就是线性回归中的b
+
+> The torch package contains data structures for multi-dimensional tensors and defines mathematical operations over these tensors. Additionally, it provides many utilities for efficient serialization of Tensors and arbitrary types, and other useful utilities.
+
+张量（Tensors）的序列化（serialization）是指将张量的数据结构转换为一种可以保存到文件或传输到其他系统的格式。序列化的目的是将张量的状态（包括数据和元数据）保存下来，以便在以后可以恢复或在不同的环境中重新使用。
+
+### week4
+
+> Define the computation performed at every call.
+>
+> Should be overridden by all subclasses.
+
+被子类重写
+
+overridden 重写
+
+> Although the recipe for forward pass needs to be defined within this function, one should call the Module instance afterwards instead of this since the former takes care of running the registered hooks while the latter silently ignores them.
+
+recipe 步骤
+
+> Terminology: Epoch,Batch-Size,Iteration
+
+terminology 术语,专业用语
+
+> PyTorch Recipes Recipes are bite-sized, actionable examples of how to use specific PyTorch features, different from our full-length tutorials.
+
+bite-sized 小巧的，简单易懂的

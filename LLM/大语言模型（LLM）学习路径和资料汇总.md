@@ -35,10 +35,10 @@
 
 > 在入门之前，请申请 OpenAI API，并具备良好的国际互联网访问条件。
 
-- [大语言模型综述](https://github.com/RUCAIBox/LLMSurvey)
-- [大语言模型](https://github.com/LLMBook-zh/LLMBook-zh.github.io)
+- [大语言模型综述](https://github.com/LLMBook-zh/LLMBook-zh.github.io)
   - 大语言模型迄今为止最好的学术向中文综述和书籍
   - 作为入门资料偏难，**看不懂的部分可以等到后面章节再回头重看**。
+    - 6/14	已大致浏览，对大模型建立初步的宏观印象
 - [ChatGPT Prompt Engineering for Developers](https://learn.deeplearning.ai/chatgpt-prompt-eng/lesson/1/introduction)
   - 虽然是 Prompt 工程，但是内容比较简单，适合入门者。
   - 中英双语字幕：https://github.com/GitHubDaily/ChatGPT-Prompt-Engineering-for-Developers-in-Chinese
@@ -48,6 +48,7 @@
 - State of GPT：GPT 联合创始人做的演示，极好的总结了 GPT 的训练和应用。
   - 视频：https://www.youtube.com/watch?v=bZQun8Y4L2A
   - PPT：https://karpathy.ai/stateofgpt.pdf
+    - 6/14	内容精辟，值得多看，大佬的总结和前瞻
 
 ## 0x20 提高篇
 
