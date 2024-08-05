@@ -1,3 +1,8 @@
+```html
+format 
+- [ ] <div title="chinese_mean">word</div>
+```
+
 ## April
 
 ### week1
@@ -6,7 +11,7 @@ revolutionize 彻底改变
 
 generation 产生
 
-sentiment 情绪
+**sentiment 情绪**
 
 fine-tuning 微调
 
@@ -26,7 +31,7 @@ backbone 骨干
 
 implement v.实现
 
-appositive
+**appositive**
 
 trivial
 
@@ -36,9 +41,9 @@ setup
 
 make sense of 
 
-sensory
+**sensory 感觉的**
 
-Perceptron
+**Perceptron 感知机**
 
 reliability
 
@@ -50,7 +55,7 @@ notation
 
 tutorial
 
-toggle
+toggle 转换
 
 revert
 
@@ -60,11 +65,11 @@ bind
 
 cursor
 
-palette
+palette 选项板
 
 docstring
 
-handout
+handout 讲义
 
 cellular
 
@@ -92,17 +97,17 @@ manipulate
 
 feed-forward
 
-stack up
+**stack up 堆积**
 
 sandwiched
 
-grunt work
+**grunt work 苦力工作**
 
 overfitting
 
 spit out
 
-get the hang of
+**get the hang of 掌握...的窍门**
 
 pivotal
 
@@ -112,8 +117,6 @@ propagate
 
 hyperparameter
 
-tandem
-
 criterion
 
 registry
@@ -122,77 +125,69 @@ template
 
 pixels
 
- 
-
 ### week2
-
-Extravaganza
 
 acclaimed
 
-groundbreaking
+**groundbreaking 开创性的**
 
 widespread
 
-narrative
+**narrative 叙述的**
 
 solidified
 
 recording button 记录按钮
 
-queries
+queries 
 
 eliminate
 
 auditory 
 
-mind-bending 离奇古怪的
+**mind-bending 离奇古怪的**
 
-meticulous
+**meticulous 一丝不苟的**
 
 innovative
 
-synonyms
+**synonyms 同义词**
 
-Grabbing coffee 喝咖啡
+**Grabbing coffee 喝咖啡**
 
-versatile
+**versatile 用途广泛的**
 
-integer 
+**integer 整数**
 
-Scalar
+**Scalar 标量**
 
 ### week4
 
-Deprecate
+**Deprecate 反对**
 
-Vulnerability
+Vulnerability 
 
-Alias
+**Alias 别名**
 
 Truncate
 
 Plugin
 
-Descriptive
+**Descriptive 描述性的**
 
-Orchestration
-
-Immersion
-
-Collapse files tree
+**Immersion 专心；沉浸**
 
 Assign
 
 Respective 相应的
 
-seamless
+**seamless 无缝的**
 
 ## May
 
 ### week2
 
-consent
+**consent 允许；同意**
 
 gist
 
@@ -222,11 +217,11 @@ rich that 多元化
 
 > if we want to deal with fundamentally different inputs or outputs, say if we wanted to map from images to captions, or from English sentences to Chinese sentences.
 
-caption n.字幕
+**caption n.字幕**
 
 > In machine learning, the *learning* is the process by which we discover the right setting of the knobs for coercing the desired behavior from our model. 
 
-coerce v. 强制，迫使
+**coerce v. 强制，迫使**
 
 > Start off with a randomly initialized model that cannot do anything useful.
 
@@ -236,7 +231,7 @@ start off 以某种特定的方式开始
 
 refer to 指代
 
-tailor 使...适应
+**tailor 使...适应**
 
 Key Components 关键组件
 
@@ -250,7 +245,7 @@ designated adj.指定的，标出的
 
 > This is just one among many kinds of machine learning problems. Before we explore other varieties, we would like to shed more light on some core components that will follow us around, no matter what kind of machine learning problem we tackle.
 
-shed some more light 洒下更多的光
+shed some more light 透露更多的情况
 
 > An *objective function* that quantifies how well (or badly) the model is doing
 
@@ -268,7 +263,7 @@ covariate n.协变量
 
 > "Dimension" typically refers to the minimum number of coordinates needed to specify any point within a space. For instance, a line has one dimension (length), a square has two dimensions (length and width), and a cube has three dimensions (length, width, and height).
 
-coodinates n.坐标
+**coodinates n.坐标**
 
 > In such cases, when every example is characterized by the same number of numerical features, we say that the inputs are fixed-length vectors and we call the (constant) length of the vectors the *dimensionality* of the data.
 
@@ -288,7 +283,7 @@ cropped-out portions 裁出部分
 
 left 后置定语 留下的
 
-ramble n.长篇大论
+**ramble n.长篇大论**
 
 > Finally, it is not enough to have lots of data and to process it cleverly. We need the *right* data. If the data is full of mistakes, or if the chosen features are not predictive of the target quantity of interest, learning is going to fail.
 
@@ -300,11 +295,13 @@ sensitive adj.敏感的
 
 > For example, if past hiring decisions are used to train a predictive model that will be used to screen resumes then machine learning models could inadvertently capture and automate historical injustices. Note that this can all happen without the data scientist actively conspiring, or even being aware.
 
-advertent adj.留意的；注意的
+**advertent adj.留意的；注意的**
 
-inadvertently adj.inadvertently
+inadvertently 无意地c
 
 > Note that this can all happen without the data scientist actively conspiring, or even being aware.
+
+conspiring 参与
 
 Note that 请注意
 
@@ -336,35 +333,37 @@ fraction 比例
 
 > Some objectives (e.g., squared error) are easy to optimize, while others (e.g., error rate) are difficult to optimize directly, owing to non-differentiability or other complications. 
 
+**differentiate 求...微分**
+
 non-differentiability 不可微
 
-derivative 导数
+**derivative 导数**
 
 > In these cases, it is common instead to optimize a *surrogate objective*.
 
-surrogate adj.替代的
+**surrogate adj.替代的**
 
 > We learn the best values of our model’s parameters by minimizing the loss incurred on a set consisting of some number of examples collected for training. However, doing well on the training data does not guarantee that we will do well on unseen data. So we will typically want to split the available data into two partitions
 
 incur 遭受，产生
 
-incurred on a set 这组数据产生的损失
+the loss incurred on a set 这组数据产生的损失
 
 pratition 部分
 
 >  You could think of training performance as analogous to the scores that a student achieves on the practice exams used to prepare for some real final exam. 
 
-analogous adj.类似的
+**analogous adj.类似的**
 
 practice exam 模拟考试
 
 > Over the course of studying, the student might begin to memorize the practice questions, appearing to master the topic but faltering when faced with previously unseen questions on the actual final exam.
 
-falter v.衰弱，退步
+**falter v.衰弱，退步**
 
 > In brief, at each step, this method checks to see, for each parameter, how that training set loss would change if you perturbed that parameter by just a small amount.
 
-perturb 小幅度的调整或改变
+**perturb 小幅度的调整或改变**
 
 > supervised learning itself can take diverse forms and require tons of modeling decisions
 
@@ -385,7 +384,7 @@ assign 分配
 > - How many hours will this surgery take?
 > - How much rainfall will this town have in the next six hours?
 
-A good rule of thumb 一个经验法则
+**A good rule of thumb 一个经验法则**
 
 > Whereas in regression we sought a regressor to output a numerical value, in classification we seek a classifier, whose output is the predicted class assignment.
 
@@ -415,19 +414,19 @@ not mutually exclusive 不互斥
 
 > Sometimes such tagging problems draw on enormous label sets.
 
-draw on 利用
+**draw on 利用**
 
 > The goal is less to determine *whether* a particular page is relevant for a query, but rather which, among a set of relevant results, should be shown most prominently to a particular user.
 
-promiently 显著地
+prominently 显著地
 
 > The problems are similar insofar as the goal is to display a set of items relevant to the user. 
 
-insofar 在某种程度上，就某种程度而言
+- [ ] <div title="在某种程度上，就某种程度而言">insofar as</div>
 
 > For example, on a five-point scale, you might notice that items receive many one- and five-star ratings but that there are conspicuously few three-star ratings. 
 
-conspicuously 显著地
+**conspicuously 显著地**
 
 > And our guess of what is going on in each frame might be much stronger if we take into account the previous or succeeding frames.
 
@@ -439,7 +438,7 @@ transcript 转录的结果
 
 > The challenge is that there are many more audio frames (sound is typically sampled at 8kHz or 16kHz) than text, i.e., there is no 1:1 correspondence between audio and text, since thousands of samples may correspond to a single spoken word. 
 
-i.e. means that is
+**i.e. means that is**
 
 > Unlike the case of speech recognition, where corresponding inputs and outputs occur in the same order, in machine translation, unaligned data poses a new challenge.
 
@@ -451,7 +450,7 @@ peculiar tendency 特殊倾向
 
 >  For instance, determining the order in which a user reads a webpage is a two-dimensional layout analysis problem. 
 
-determining 确定
+**determining 确定**
 
 > Dialogue problems exhibit all kinds of additional complications, where determining what to say next requires taking into account real-world knowledge and the prior state of the conversation across long temporal distances. Such topics are active areas of research.
 
@@ -465,11 +464,11 @@ prior state 之前的状态
 
 > To whet your appetite for now, we describe a few of the following questions you might ask.
 
-whet sb appetite 激起食欲，提起兴趣
+**whet sb appetite 激起食欲，提起兴趣**
 
 > For images, we may train models to tell the relative position between two cropped regions of the same image ([Doersch *et al.*, 2015](https://d2l.ai/chapter_references/zreferences.html#id58)), to predict an occluded part of an image based on the remaining portions of the image, 
 
-occluded adj.隔离的，封闭的
+**occluded adj.隔离的，封闭的**
 
 > In each case, we grab a big pile of data upfront, then set our pattern recognition machines in motion without ever interacting with the environment again. 
 
@@ -487,11 +486,13 @@ surge in popularity 人气飙升
 
 is subsequently transmitted back to 随后传输回去
 
+**subsequently  随后**
+
 ### week4
 
 > If you are interested in using machine learning to develop an agent that interacts with an environment and takes actions, then you are probably going to wind up focusing on reinforcement learning. 
 
-wind up 最终处于，结束于
+**wind up 最终处于，结束于**
 
 > Reinforcement learning gives a very general statement of a problem in which an agent interacts with an environment over a series of time steps. 
 
@@ -525,9 +526,9 @@ account for 解释
 
 > knowledge of the basic linear algebraic operations that we apply to high-dimensional data elements;
 
-linea ralgebraic operation 线性代数运算
+linear algebraic operation 线性代数运算
 
-preliminaries 预备知识
+- [ ] <div title=" 预备知识">preliminaries</div>
 
 > Zotero is, at the most basic level, a reference manager. It is designed to store, manage, and cite bibliographic references, such as books and articles
 
@@ -541,7 +542,9 @@ longstanding adj.长期存在的
 
 > LM aims to model the generative likelihood of word sequences, so as to predict the probabilities of future (or missing) tokens.
 
-so as to 目的是，意图是
+- [ ] <div title="目的是，意图是">
+      so as to
+  </div>
 
 > Since the researchers have found that model scaling can lead to an improved model capacity, they further investigate the scaling effect by increasing the parameter scale to an even larger size.
 
@@ -553,7 +556,9 @@ scaling 增加、扩展或提升语言模型的规模或能力
 
 > BERT [23] was proposed by pre-training bidirectional language models with specially designed pre-training tasks on large-scale unlabeled corpora.
 
-corpora 语料库
+- [ ] <div title = "语料库">
+      corpora
+  </div>
 
 > A remarkable application of LLMs is ChatGPT2 that adapts the LLMs from the GPT series for dialogue
 
@@ -587,7 +592,9 @@ repetitive 重复的
 
 > We thoroughly comb the literature and summarize the key findings, techniques, and methods of LLMs.
 
-comb 梳理
+- [ ] <div title = "梳理">
+      comb
+  </div>
 
 > Extensive research has shown that scaling can largely improve the model capacity of LLMs [26, 55, 56]. Thus, it is useful to establish a quantitative approach to characterizing the scaling effect. Next, we introduce two representative scaling laws for Transformer language models [30, 34].
 
@@ -605,7 +612,7 @@ variant 变体
 
 > Secondly, the training of large-scale models takes a long time, often suffering from issues such as training loss spike, and scaling law can be employed to monitor the training status of LLMs, e.g., identifying abnormal performance at an early time. Despite that scaling law characterizes a smooth trend of performance increase (or loss decrease), it also indicates that diminishing returns might occur as model scaling.
 
-training loss spike 训练损失突增
+- [ ] <div title="训练损失突增">training loss spike</div>
 
 characrerizes 描述
 
@@ -615,7 +622,9 @@ characrerizes 描述
 
 representation quality 表示质量
 
-semantic content 语义内容
+- [ ] <div title = "语义内容">
+      semantic content
+  </div>
 
 be promising for ...有希望的
 
@@ -651,23 +660,101 @@ preset 预设
 
 nucleus sampling 核采样
 
-top_p 
+top_p  
 
-> 在ChatGPT和其他基于GPT的语言模型中，`top_p`是一种称为nucleus sampling或top-p sampling的文本生成策略的参数。这种策略在生成文本时考虑可能性最高的下一个词的累积概率分布。
+> 在大模型中，尤其是用于自然语言处理的生成模型中，如GPT-3，"top_p"（也称为核采样，nucleus sampling）是用于生成文本时的一种采样策略。
 >
-> 具体来说，`top_p`参数设置了一个概率阈值`p`，模型在每一步生成词汇时，会从概率最高的一组词汇中进行选择，这组词汇的累积概率至少为`p`。通过这种方式，模型只考虑那些累积概率达到阈值`p`的词汇，而忽略那些累积概率较低的不太可能的词汇。
+> ### Top-p (Nucleus Sampling) 详解
 >
-> 假设我们让一个基于GPT的模型完成这个句子：“太阳落山后，天空呈现出一片……”，并且我们考虑使用不同的`top_p`值来控制生成的多样性。
+> 在文本生成过程中，模型会根据词汇表中每个可能的下一个词的概率分布生成下一个词。这些概率是通过软最大化函数计算得出的。传统的贪心搜索或top-k采样可能会导致生成的文本质量不高，因为它们要么太确定，要么太随机。Top-p 采样则是一种折衷方法，能够平衡生成质量和多样性。
 >
-> **`top_p`值较低的情况（例如，`top_p=0.3`）**
+> ### 如何工作
 >
-> 当`top_p`值较低时，模型在选择下一个词时更加保守，主要考虑那些概率最高的词汇。在这种情况下，模型可能会生成比较常见或预期的词汇来完成句子，如：“太阳落山后，天空呈现出一片**红色**。”这里，“红色”是一个相对常见的描述天空颜色的词汇，因为它的概率较高，容易被模型选中。
+> 1. **排序**：
+>    首先，根据模型预测的概率对所有可能的词进行排序，从高到低。
 >
-> **`top_p`值较高的情况（例如，`top_p=0.9`）**
+> 2. **累计概率**：
+>    然后，依次累加这些排序后的概率，直到累计概率达到或超过阈值 \( p \)。
 >
-> 当`top_p`值较高时，模型在生成文本时更加开放和多样，会考虑更广泛的词汇选择。这时，模型可能会生成一些更具创造性或不那么常见的词汇来完成句子，如：“太阳落山后，天空呈现出一片**橘紫交错的光辉**。”在这个例子中，由于`top_p`值较高，模型考虑了一组累积概率达到90%的词汇，这允许模型探索更多样化和具有创造性的表达方式。
+> 3. **选择词汇**：
+>    最后，从这些累计概率满足条件的词中进行采样。
 >
-> 通过调整`top_p`值，我们可以控制模型在生成文本时的保守程度和多样性。较低的`top_p`值让模型倾向于选择更加确定和常见的词汇，而较高的`top_p`值鼓励模型探索更广泛的可能性，生成更有创造性和多样性的文本。
+> 这样做的好处是，它能动态地选择最可能的一些词，而不是限制在固定数量的词（如top-k采样），这使得生成的文本既有质量又有多样性。
+>
+> ### 数学描述
+>
+> 设词汇表中的所有词的概率分布为 \( P(w) \)，我们按从高到低对这些概率进行排序，得到一个排序后的词汇表 \( \{w_1, w_2, \ldots, w_V\} \)，其中 \( P(w_1) \geq P(w_2) \geq \ldots \geq P(w_V) \)。我们选择前 \( k \) 个词，使得：
+>
+> $$
+> \sum_{i=1}^{k} P(w_i) \geq p
+> $$
+>
+> 然后在这些词中进行采样。
+>
+> ### 例子
+>
+> 假设有一个非常小的词汇表包含五个词：A、B、C、D、E。模型对下一个词的预测概率如下：
+>
+> - P(A) = 0.4
+> - P(B) = 0.3
+> - P(C) = 0.2
+> - P(D) = 0.07
+> - P(E) = 0.03
+>
+> 如果我们设定 \( p = 0.7 \)：
+>
+> 1. 排序后的概率：A (0.4), B (0.3), C (0.2), D (0.07), E (0.03)。
+> 2. 从高到低累积概率：0.4 (A), 0.4 + 0.3 = 0.7 (A + B)。
+>
+> 此时累计概率已经达到 0.7，因此我们从 A 和 B 中采样下一个词。
+>
+> ### 优点
+>
+> - **灵活性**：相比于top-k采样，top-p采样更为灵活，因为它根据概率分布的实际情况来动态调整候选词的数量。
+> - **多样性**：它能生成更有创意和多样性的文本，因为它不局限于固定数量的高概率词。
+>
+> 在已经选取的A和B中，具体选择哪一个词汇是通过概率采样来决定的。这个过程可以理解为在这两个词之间进行一次概率性选择，而不是均匀随机选择。
+>
+> 假设已经选取了A和B两个词，它们的概率分别是：
+>
+> - P(A) = 0.4
+> - P(B) = 0.3
+>
+> 总概率和为0.7（因为我们之前设定的top-p阈值为0.7）。为了在这两个词中进行采样，我们需要对这两个词的概率进行重新归一化，使得它们的概率总和为1。
+>
+> ### 重新归一化概率
+>
+> 归一化后的概率分别是：
+>
+> $$
+> P'(A) = \frac{P(A)}{P(A) + P(B)} = \frac{0.4}{0.4 + 0.3} = \frac{0.4}{0.7} = \frac{4}{7}
+> $$
+>
+> $$
+> P'(B) = \frac{P(B)}{P(A) + P(B)} = \frac{0.3}{0.4 + 0.3} = \frac{0.3}{0.7} = \frac{3}{7}
+> $$
+>
+> ### 采样过程
+>
+> 在重新归一化后，A和B的概率变成了4/7和3/7。我们可以将这个过程看作是在[0, 1]区间上进行一次随机选择，具体步骤如下：
+>
+> 1. 生成一个在[0, 1]区间上的随机数 \( r \)。
+> 2. 如果 \( r \) 落在[0, 4/7]区间，则选择词A。
+> 3. 如果 \( r \) 落在(4/7, 1]区间，则选择词B。
+>
+> ### 例子
+>
+> 假设生成的随机数 \( r = 0.5 \)：
+>
+> - 因为 \( 0.5 \) 落在[0, 4/7]区间内，所以选择词A。
+>
+> 如果生成的随机数 \( r = 0.6 \)：
+>
+> - 因为 \( 0.6 \) 落在(4/7, 1]区间内，所以选择词B。
+>
+> ### 总结
+>
+> 在已经选取的候选词（如A和B）中，具体选择哪一个词汇是通过重新归一化概率后进行的随机采样决定的。这样既保持了生成文本的多样性，又确保了较高概率的词汇更有可能被选中，从而保证生成的文本质量。
 
 > The OpenAI API uses API keys for authentication. You can create API keys at a user or service account level. Service accounts are tied to a "bot" individual and should be used to provision access for production systems. Each API key can be scoped to one of the following,
 
@@ -783,11 +870,13 @@ sustain attention 保持注意力
 
 > This title probably conjures up the image of a schoolboy’s pencilcase containing a few chosen articles designed to help reading: a pair of glasses, a bookmark, instant coffee, etc. However, this toolkit is quite special. It contains resources invisible to the naked eye, like time, memory, energy, attention, and motivation. A skillful writer minimises the time, memory, and energy needed for reading, while keeping reader attention and motivation high.
 
-conjure up 使人联想到，想象出
+- [ ] <div title="使人联想到，想象出">
+      conjure up
+  </div>
 
 pencilcase 铅笔盒
 
-instant coffee 速溶咖啡
+- [ ] <div title = "速溶咖啡">instant coffee</div>
 
 naked eye 肉眼
 
@@ -797,7 +886,7 @@ naked eye 肉眼
 
 > The Forgotten Acronym
 
-acronym 首字母缩略词
+- [ ] <div title = " 首字母缩略词">acronym</div>
 
 > The Diverting Synonym
 
@@ -823,9 +912,9 @@ visuals 图形
 
 > To set an expectation is like creating a void that other sentences will fill. Not filling that void is tantamount to frustrating readers by not bringing closure.
 
-Tantamount - 等同于
+- [ ] <div title = "等同于">be tantamount to</div>
 
-Closure - 结论
+- [ ] <div title="结论">closure</div>
 
 > Readers expect the author to bring evidence to justify scientific claims.
 
@@ -865,7 +954,7 @@ Constipation - 便秘（这里比喻交通拥堵）
 
 > being a resourceful man, he makes a couple of telephone calls and reorganises his work schedule so as to free up an immediately available 2-hour slot.
 
-resourceful 足智多谋的
+- [ ] <div title = "足智多谋的">resourceful</div>
 
 so as to 为了
 
@@ -873,7 +962,7 @@ free up 腾出（时间）
 
 > The difference between making ripples or making waves will then be a matter of scientific excellence — a topic I leave in your good and capable hands
 
-a matter of 取决于
+- [ ] <div title = "取决于">be a mattle of</div> 
 
 制造涟漪和掀起波浪之间的区别将取决于科学卓越性
 
@@ -996,3 +1085,113 @@ terminology 术语,专业用语
 > PyTorch Recipes Recipes are bite-sized, actionable examples of how to use specific PyTorch features, different from our full-length tutorials.
 
 bite-sized 小巧的，简单易懂的
+
+## July
+
+### week1
+
+> PyTorch allows a maketensor to be a View of an existing tensor. View tensor shares the same underlying data with its base tensor. Supporting View avoids explicit data copy, thus allows us to do fast and memory efficient reshaping, slicing and element-wise operations.
+
+underlying data 底层数据
+
+explicit data copy 显示的数据复制
+
+element-wise operation 元素级操作
+
+### week2
+
+> hallucination
+
+（大模型）幻觉
+
+> The exact value and typeof symbols are mostlyimmaterial to the modelperformance.Replacingsymbols with abstractplaceholders can do justas well at eliciting elieffective thoughts.
+
+immaterial 不重要的
+
+placeholder 占位符
+
+eliciting 刺激
+
+> symbiotic relationship between text and patterns
+
+- [ ] <div title = '共生的'>
+      symbiotic
+  </div>
+
+### Week3
+
+> Decks that have been nested under another deck (that is, that have at least one “::” in their names) are often called 'subdecks', and top-level decks are sometimes called 'superdecks' or 'parent decks'.
+
+- [ ] <div title = '被嵌入'>have been nested</div> 
+
+> We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely.
+
+- [ ] <div title = '放弃，不再使用'> dispensing with </div>
+
+- [ ] <div title = '已出版的文献'>literature</div>
+
+- [ ] <div title = '英语成分句法分析'>English constituency parsing</div>
+
+> Recurrent neural networks, long short-term memory [13] and gated recurrent [7] neural networks in particular, have been firmly established as state of the art approaches in sequence modeling and transduction problems such as language modeling and machine translation [35, 2, 5]. Numerous efforts have since continued to push the boundaries of recurrent language models and encoder-decoder architectures
+> since的用法？
+
+在这个句子中，"since" 用作从属连词，引导一个时间状语从句，表示“自从……以来”。它用来指明从过去某个时间点或事件之后一直持续到现在的时间跨度。这里的用法强调从某个特定的时间点开始，相关的行为或状态一直持续不断。
+
+句子中的 "since" 用法如下：
+> "Numerous efforts have since continued to push the boundaries of recurrent language models and encoder-decoder architectures."
+
+这句话的意思是自从循环神经网络（RNNs），特别是长短期记忆网络（LSTM）和门控循环神经网络（GRUs）被确立为序列建模和转换问题（如语言建模和机器翻译）的最先进方法以来，许多努力一直在不断地推动循环语言模型和编码器-解码器架构的边界。
+
+这里的 "since" 指的可能是这些网络结构被广泛认可和使用的那个时间点，从那时起，研究者们就一直在进行各种尝试和研究，以进一步提升这些模型的性能和应用范围。
+
+### Week4
+
+> The choice of candidate is influenced by the reader’s knowledge: the more superficial the knowledge, the more error-prone the choice will be. Authors who wish nonexperts to read their paper should be aware that pronouns present dangers.
+
+- [ ] <div title = '易出错的'>error-prone</div>
+
+> The usual culprits were absent: the grammar was correct and the sentence length was average for a scientific article.
+
+- [ ] <div title = '起因'>culprit</div>
+
+> Local variables are known only within the subroutine where they are declared.
+
+- [ ] <div title = '子程序'>subroutine</div>
+
+> Additional information is readily available from “context” other words found in the vicinity of the word considered.
+
+- [ ] <div title = '周边区域'>vicinity</div>
+
+> The nesting of subordinates has the same effect as plunging the reader below the comprehension level.
+
+- [ ] <div title = '嵌套'>nest</div>
+
+- [ ] <div title = '嵌套'>subordinate</div>
+
+> In summary, acronyms, pronouns, abusive detailing, background “ghettos”, cryptic captions, and separated phrases all take their toll on the reader’s memory.
+
+- [ ] <div title="滥用的">abusive</div>
+
+- [ ] <div title = '模糊的'>cryptic</div>
+
+> Drama and suspense naturally seem out of reach for the scientific writer.
+
+- [ ] <div title = '悬念，兴奋'>suspense</div>
+
+> To reduce excessive paragraph length, follow these three steps: keep the main supportive details that contribute the most to your argument, and trim the rest; join and consolidate related details that are scattered; and restructure the paragraph to remove repetition and inconsistent keywords.
+
+- [ ] <div title="调整">trim</div>
+
+- [ ] <div title="展开">scatter</div>
+
+> Sometimes, additional length is caused by lack of focus. The paragraph accumulates points and issues that are interwoven and difficult to disentangle without a complete restructure of the long paragraph
+
+有时候，额外的长度是由于缺乏焦点造成的。段落累积了许多点和问题，它们相互交织，难以在不对长段落进行完全重构的情况下解开。
+
+> Used in moderation, a numbered list, a box around text, bold,underlined,or italic text, a change in font, etc. are equivalent to raising the volume of your voice, or changing its pitch or inflexion.
+
+- [ ] <div title = '适度'>moderation</div>
+
+> They break the monotony of paragraphs and make things stand out (note that the publisher may limit your choices by imposing a standard format).
+
+- [ ] <div title = '单调乏味'>monotony</div>
