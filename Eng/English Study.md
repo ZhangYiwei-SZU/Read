@@ -1,199 +1,149 @@
 ```html
 format 
-- [ ] <div title="chinese_mean">word</div>
+- [ ] <div title=""></div>
 ```
 
 ## April
 
 ### week1
 
-revolutionize 彻底改变
+revolutionize v.彻底改变
 
-generation 产生
+generation n.产生
 
-**sentiment 情绪**
+**sentiment n.情绪**
 
 fine-tuning 微调
 
-interpretability 可解释性 
+interpretability n.可解释性 
 
 computational adj.计算的
 
-capabilities 功能
+capabilities n.功能
 
 prompt 提示词
 
-comma 逗号
+comma n.逗号
 
-analysis 分析
+analysis n.分析
 
-backbone 骨干
+backbone n.骨干
 
 implement v.实现
 
-**appositive**
+**appositive** adj.同位的 n.同位语
 
-trivial
+trivial adj.琐碎的，不重要的
 
-noteworthy
+noteworthy adj.值得注意的，显著的
 
-setup
+setup  n.安装，体制
 
-make sense of 
+make sense of 弄懂
 
-**sensory 感觉的**
+**sensory adj.感觉的**
 
 **Perceptron 感知机**
 
-reliability
+reliability n.可靠性，可信度
 
-knock
+spatial adj.空间的
 
-spatial
+notation n.标记系统
 
-notation
+tutorial n.教程 adj.教程的
 
-tutorial
+toggle v. 转换
 
-toggle 转换
+revert  v.回复，恢复
 
-revert
+checkpoint n.检查点，权重保存点
 
-checkpoint
+cursor n.游标
 
-bind
+palette n.选项板
 
-cursor
+docstring n.文档字符串（''' string ''')
 
-palette 选项板
+handout n.讲义
 
-docstring
+therapeutics n.疗法，治疗药物
 
-handout 讲义
+utilize v.利用
 
-cellular
+unprecedented adj.史无前例的
 
-therapeutics
+elucidate v.阐明，解释
 
-utilize
+Adversarial adj.对抗的，对手的
 
-unprecedented
+Generative adj.有生产力的
 
-elucidate
+characteristic n.特色 adj.独特的
 
-stretches
+tweak v.微调
 
-Adversarial
-
-Generative
-
-characteristic
-
-tweak
-
-pattern
-
-manipulate
-
-feed-forward
+feed-forward adj.前馈的
 
 **stack up 堆积**
 
-sandwiched
-
 **grunt work 苦力工作**
-
-overfitting
-
-spit out
 
 **get the hang of 掌握...的窍门**
 
-pivotal
-
-delve
-
-propagate
-
-hyperparameter
-
-criterion
-
-registry
-
-template
-
-pixels
-
 ### week2
 
-acclaimed
+acclaimed adj.收到表扬的,广受欢迎的
 
-**groundbreaking 开创性的**
+**groundbreaking adj.开创性的**
 
-widespread
-
-**narrative 叙述的**
-
-solidified
+**narrative adj.叙述的**
 
 recording button 记录按钮
 
-queries 
+**mind-bending adj.离奇古怪的**
 
-eliminate
+**meticulous adj.一丝不苟的**
 
-auditory 
-
-**mind-bending 离奇古怪的**
-
-**meticulous 一丝不苟的**
-
-innovative
-
-**synonyms 同义词**
+**synonyms n.同义词**
 
 **Grabbing coffee 喝咖啡**
 
-**versatile 用途广泛的**
+**versatile adj.用途广泛的**
 
-**integer 整数**
+**integer n.整数**
 
-**Scalar 标量**
+**Scalar n.标量**
 
 ### week4
 
-**Deprecate 反对**
+**Deprecate vt.反对**
 
-Vulnerability 
+Vulnerability n.弱点
 
-**Alias 别名**
+**Alias n.别名**
 
-Truncate
-
-Plugin
+Truncate v.截断
 
 **Descriptive 描述性的**
 
 **Immersion 专心；沉浸**
 
-Assign
+Assign v.分派
 
-Respective 相应的
+Respective adj.相应的
 
-**seamless 无缝的**
+**seamless adj.无缝的**
 
 ## May
 
 ### week2
 
-**consent 允许；同意**
+**consent n./v.允许；同意**
 
-gist
+snippets n.片段
 
-snippets
-
-verbose
+verbose adj.冗长的
 
 console n.控制台
 
@@ -1195,3 +1145,161 @@ eliciting 刺激
 > They break the monotony of paragraphs and make things stand out (note that the publisher may limit your choices by imposing a standard format).
 
 - [ ] <div title = '单调乏味'>monotony</div>
+
+> This inherently sequential nature precludes parallelization within training examples, which becomes critical at longer sequence lengths, as memory constraints limit batching across examples.
+
+- [ ] <div title = '排除'>preclude</div>
+
+> In all but a few cases [27], however, such attention mechanisms are used in conjunction with a recurrent network.
+
+- [ ] <div title = '被用来与...一起使用'>be usesd in conjuction with</div>
+
+> The goal of reducing sequential computation also forms the foundation of the Extended Neural GPU [16], ByteNet [18] and ConvS2S [9], all of which use convolutional neural networks as basic building block, computing hidden representations in parallel for all input and output positions. In these models, the number of operations required to relate signals from two arbitrary input or output positions grows in the distance between positions, linearly for ConvS2S and logarithmically for ByteNet. This makes it more difficult to learn dependencies between distant positions [12]. In the Transformer this is reduced to a constant number of operations, albeit at the cost of reduced effective	 resolution due to averaging attention-weighted positions, an effect we counteract with Multi-Head Attention as described in section 3.2.
+
+- [ ] <div title = '线性'>linearly</div>
+
+- [ ] <div title="指数">logarithmically</div>
+
+- [ ] <div title="尽管">albeit</div>
+
+- [ ] <div title="抵消">counteract</div>
+
+> We plan to extend the Transformer to problems involving input and output modalities other than text and to investigate local, restricted attention mechanisms to efficiently handle large inputs and outputs such as images, audio and video.
+
+- [ ] <div title="形态">modality</div>
+
+## August
+
+### Week2
+
+> In this work we propose the Transformer, a model architecture eschewing recurrence and instead relying entirely on an attention mechanism to draw global dependencies between input and output.
+
+- [ ] <div title="避开">eschew</div>
+
+> At each step the model is auto-regressive [10], consuming the previously generated symbols as additional input when generating the next.
+
+- [ ] <div title="自回归">auto-regressive</div>
+
+$ y_t $ 的输出与之前时刻$y_1 ... y_{t-1} $相关 
+
+> The summary, another repetition, clarifies what is important by rephrasing the section’s main points succinctly and differently.
+
+- [ ] <div title = 'succintly'>简洁地</div>
+
+> Words such as to summarise, in summary, in other words, see Fig. X, in conclusion, in short, and briefly put all perk up the attention of readers.
+
+- [ ] <div title="引起注意力">perk up attention</div>
+
+> Words conveying importance guide attention. They act like pointing fingers and are quite effective, if used sparingly.
+
+- [ ] <div title="简朴的">sparingly</div>
+
+> Without visuals, a paper soon becomes unclear; without clear understanding, readers’ attention soon wanes.
+
+- [ ] <div title="减弱，衰退">wane</div>
+
+> One might think that all questions come with a question mark.
+
+- [ ] <div title="问号">question mark</div>
+
+> A noteworthy contradiction, difference, exception, limitation: however, but, contrary to, although, in contrast, on the other hand, while, whereas, whilst, only.
+
+- [ ] <div title="矛盾">contradiction</div>
+
+> In conclusion, you can control how the reader perceives time by (1) managing the length of the sections of your paper
+
+- [ ] <div title="感知">perceive</div>
+
+> You order the paper through your library. A day later, it lands on your desk with a yellow post-it note attached to the first page that says, “A French girlfriend, maybe?”
+
+- [ ] <div title="便利贴">post-it</div>
+
+> If you ask the librarian, she will ask you about your French girlfriend, so you scrap that idea.
+
+- [ ] <div title="放弃想法">scrap the idea</div>
+
+> Deviating from the norm is often frowned upon (like ending sentences with a preposition).
+
+- [ ] <div title="偏离，违背">deviate from</div>
+
+> You can now see that your writing has much to do with sustaining the motivation of the reader through a combination of writing style, honest title, judicious detail and background, clear contribution, and good English.
+
+- [ ] <div title="明智的">judicious</div>
+
+> The following scenarios will help you understand their goals.
+
+- [ ] <div title="情节">scenarios</div>
+
+> The serendipitous reader
+
+- [ ] <div title="偶然发现的">serendipitous</div>
+
+> Now that we have ascertained what you know for sure about your readers’ initial knowledge, what then do you not know for sure?
+
+- [ ] <div title="查明">ascertain</div>
+
+> Even though it is tempting to believe that readers have the same level of knowledge as the one you had at the start of your project, nothing could be further from the truth. Readers are not younger versions of you. Let us now consider your contribution.
+
+- [ ] <div title="诱人的">tempting</div>
+
+> I hope you now see that, by and large, the gap between your knowledge and readers’ knowledge is wide
+
+- [ ] <div title="大体上">by and large</div>
+
+> therefore, you must clearly demark your contribution from that of others.
+
+- [ ] <div title="区别">demark</div>
+
+> We suspect that for large values of dk, the dot products grow large in magnitude, pushing the softmax function into regions where it has extremely small gradients 4. To counteract this effect, we scale the dot products by 1 √dk .
+
+- [ ] <div title="（按比例）缩小">scale</div>
+
+> The Transformer follows this overall architecture using stacked self-attention and point-wise, fully connected layers for both the encoder and decoder, shown in the left and right halves of Figure 1, respectively.
+
+- [ ] <div title="两等分">halves</div>
+
+### Week3
+
+> In this work, we investigate white-box KD of LLMs where the output distribution of the teacher model is available. We argue that the standard KD objectives (Kim & Rush, 2016; Song et al., 2020; Chiang et al., 2023; Taori et al., 2023) are sub-optimal for LLMs that perform tasks in a generative manner.
+
+- [ ] <div title="次优的">subtimal</div>
+
+> How do you keep them? Are some of their contents highlighted to mark a significant problem or discovery? Every discovery is a conceptual leap.
+
+- [ ] <div title="概念飞跃">conceptual leap</div>
+
+> You have to throw a figurative ladder to readers, so that they can come on board your hot air balloon gondola.
+
+- [ ] <div title="比喻的">figuratibe</div>
+
+> Not filling that void is tantamount to frustrating readers by not bringing closure.
+
+- [ ] <div title="等同">be tantamount to</div>
+
+- [ ] <div title="结论">closure</div>
+
+> Controlling these expectations, limiting their range, or channelling them is not optional: it is key to the success of your paper. Therefore, manage the expectations you set.
+
+- [ ] <div title="引导">channelling</div>
+
+> It is time to revive grammatical concepts acquired in secondary school. One recognises a main clause because it stands alone. A subordinate clause does not stand alone: to be understood, it needs the main clause. The following sentence has two clauses (each with subject and verb).
+
+- [ ] <div title="中学">secondary school</div>
+
+- [ ] <div title="主句">main clause</div>
+
+- [ ] <div title="从句">subordiante clause</div>
+
+> In (4), the two influential factors are on opposite sides of the sentence (main clause at the head of the sentence and subordinate at the end of the sentence), so they neutralise one another.
+
+- [ ] <div title="中和">neutralise</div>
+
+## September
+
+### Week 4
+
+> - being highly customizable for bespoke document production due to its intrinsic programmability and extensibility through thousands of [free add-on packages](https://www.ctan.org/pkg).
+
+* [ ]  <div title = 'adj.定做的，定制的v.显示，展现；表明……的存在，证明；预订（bespeak 的过去式） '>bespoke</div>
+
+   
